@@ -1,0 +1,77 @@
+.content-book {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    flex-direction: column;
+    max-width: 1000px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+
+    @media all and 
+    (max-width: 700px) and 
+    (orientation:portrait) {
+        justify-content: flex-start;
+        margin-top: 12rem;
+    }
+}
+
+.book-details {
+    display: flex;
+    flex-direction: row;
+
+
+    @media all and 
+    (max-width: 700px) and 
+    (orientation:portrait) {
+        flex-direction: column;
+    }
+
+    .detail-column {
+        flex: 1;
+
+
+    }
+}
+
+.slides-container {
+    position: relative;
+    height: 40vh;
+    margin-bottom: 5rem;
+
+    .slide {
+        height: 100%;
+        max-width: 100%;
+        position: absolute;
+        border: 0;
+        transition: opacity 0.5s ease;
+        opacity: 0;
+
+        &:focus {
+            border: 0;
+            outline: 0;
+        }
+
+        &:target {
+            z-index: 10;
+            opacity: 1;
+            transition: opacity 0.5s ease 0.5s;
+        }
+
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+.slides-container > 
+.slide:target ~ .slide:last-child, 
+.slides-container > .slide {
+opacity: 0;
+  }
+  
+/* :last-child works, but for some reason .slide:last-child will not */
+.slides-container > :last-child, 
+.slides-container > .slide:target {
+opacity: 1;
+}

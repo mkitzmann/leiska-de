@@ -1,0 +1,32 @@
+/*
+* === NAVIGATION ===
+*/
+
+.logo {
+    height: 1.2rem;
+}
+
+span.bold {
+    font-family: $bold-font;
+}
+
+nav {
+    font-weight: 200;
+    margin-top: 50px;
+    z-index: 0;
+    font-size: 0.9rem;
+}
+
+nav a {
+    color: #000;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+nav a.active {
+    font-family: $bold-font;
+}
+
+nav a:hover {
+    color: $light-grey;
+}

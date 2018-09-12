@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+  {% include header.html %}
+
+<div class="content" id="overview">
+
+
+
+    <div class="container" id="overview">
+        {% for project in page.projects %}
+          {% assign collection = site[project.title] | first %}
+          
+          <a href="{{ collection.url }}" class="project-wrapper">
+              <img class="grid fadein" src="{{ project.thumbnail }}">
+          </a>
+        {% endfor %}
+
+    </div>
+</div>
+
+
+
+  {% include footer.html %}
+</body>
+
+</html>

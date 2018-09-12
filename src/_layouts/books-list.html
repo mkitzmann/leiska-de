@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+  {% include header.html %}
+
+<div class="content" id="overview">
+
+
+
+    <div class="container" id="overview">
+        {% for book in site.books %}
+          
+          <a href="{{ book.url }}" class="project-wrapper">
+              <img class="grid fadein" src="{{ book.thumbnail }}">
+          </a>
+        {% endfor %}
+
+    </div>
+</div>
+
+
+
+  {% include footer.html %}
+</body>
+
+</html>
