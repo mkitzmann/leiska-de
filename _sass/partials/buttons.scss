@@ -1,0 +1,50 @@
+/* Set a style for all buttons */
+button {
+    background-color: #ccc;
+    font-size: 0.8em;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button.btn-full-width {
+background-color: #ccc;
+font-size: 0.8em;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+/* Add a hover effect for buttons */
+
+button:hover {
+opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 0.3rem 2rem;
+    border-radius: 2rem;
+    vertical-align: baseline;
+    margin-top: 1rem;
+    color: #fff;
+
+    &:hover {
+        box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+    }
+}

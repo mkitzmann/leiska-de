@@ -52,6 +52,8 @@
               ISBN {{page.de.isbn}}<p/><p>
               {{page.de.price}} € inkl. Versand in Deutschland<p/><p>
               {{page.de.text}}
+
+              <a href="#order" class="btn">Buch bestellen</a>
             
           </div>
           <div class="detail-column">
@@ -66,11 +68,50 @@
               {{page.en.price}} € inkl. Versand in Deutschland<p/><p>
               {{page.en.text}}
             
+              <a href="#order" class="btn">Order Book</a>
+
           </div>
       </div>
     </div>
 
   </div>
+
+  <div id="order" class="overlay">
+      <a class="close-overlay" href="#"></a>
+      <div class="popup">
+        <form action="https://formspree.io/mkitzmann@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Neue Bestellung für das Buch {{ page.title }}" />
+          <input type="hidden" name="_next" value="http://localhost:4000/books/cake/#thankyou" />
+          <label for="name">Ihr Name</label>
+          <input type="text" id="name" name="name" placeholder="Name">
+          <label for="email">Ihre Email Adresse</label>
+          <input type="text" id="email" name="_replyto" placeholder="mail@example.com">
+          <label for="order">Ihre Bestellung</label>
+          <textarea id="order" name="order">
+            Ich möchte gerne 1 Exemplar des Buches "{{ page.title }}" bestellen
+          </textarea>
+          <input type="submit" value="Bestellung absenden" class="btn">
+        </form>
+        <div class="popup-copyright">
+            Photograph and Copyright © by HEINER LEISKA<br>
+            Not to be reproduced in any form without written permission of the photographer
+        </div>
+
+      </div>
+    </div>
+
+    <div id="thankyou" class="overlay">
+        <a class="close-overlay" href="#"></a>
+        <div class="popup">
+          <p>
+          Danke für Ihre Bestellung, sie erhalten in Kürze eine Email mit der Rechnung.
+          </p><p>
+          Thank you for your order. You will receive an email with the Invoice shortly.
+          </p>
+          <a href="#" class="btn">Zurück zur Website</a>
+  
+        </div>
+      </div>
 
   {% include footer.html %}
 </body>

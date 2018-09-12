@@ -1,5 +1,5 @@
 ---
 layout: project-detail
 title: Horizon orange
-image: /img/photography/horizons/LEISKA_200709k04.jpg
+image: /img/photography/buildings/LEISKA_3256-28.jpg
 ---

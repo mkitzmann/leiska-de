@@ -43,23 +43,28 @@
                 </svg>
                 {{ page.title }}
             </a>
-            <div class="counter-wrapper">
-                <a href="/photography/water/water-test" class="">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="16" height="16" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
-                        <g class="nc-icon-wrapper">
-                            <path d="M352 115.4L331.3 96 160 256l171.3 160 20.7-19.3L201.5 256z"></path>
-                        </g>
-                    </svg>
-                </a>
-                <span class="counter">{{ current_page }}/{{ site[page.collection] | size }}</span>
-                <a href="/photography/water/water-blue" class="">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="16" height="16" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
-                        <g class="nc-icon-wrapper">
-                            <path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"></path>
-                        </g>
-                    </svg>
-                </a>
-            </div>
+            {% if site[page.collection].size != 1 %}
+                <div class="counter-wrapper">
+                    <a href="{{ page.previous.url | default: site[page.collection].last.url }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="16" height="16" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+                            <g class="nc-icon-wrapper">
+                                <path d="M352 115.4L331.3 96 160 256l171.3 160 20.7-19.3L201.5 256z"></path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <span class="counter">{{ current_page }}/{{ site[page.collection] | size }}</span>
+
+                    <a href="{{ page.next.url | default: site[page.collection].first.url  }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="16" height="16" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+                            <g class="nc-icon-wrapper">
+                                <path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    
+                </div>
+            {% endif %}
         </div>
     {% endif %}
 

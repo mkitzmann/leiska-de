@@ -41,6 +41,10 @@ collections:
     title: Horizon
     output: true
     permalink: /photography/:collection/:title/
+  ship:
+    title: Ship
+    output: true
+    permalink: /photography/:collection/:title/
 
 responsive_image:
   # [Required]

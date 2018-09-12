@@ -5,12 +5,13 @@
 /* Bordered form */
 
 form {
-    width: 20em;
+    width: 28rem;
+    max-width: 100%;
 }
 
 /* Full-width inputs */
 
-input {
+input,textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -19,41 +20,7 @@ input {
     box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
-button {
-        background-color: #ccc;
-        font-size: 0.8em;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-}
 
-button.btn-full-width {
-    background-color: #ccc;
-    font-size: 0.8em;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-/* Add a hover effect for buttons */
-
-button:hover {
-    opacity: 0.8;
-}
-
-/* Extra style for the cancel button (red) */
-
-.cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-}
 
 .error {
     color: red;
