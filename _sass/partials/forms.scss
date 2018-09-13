@@ -14,16 +14,32 @@ form {
 /* Full-width inputs */
 
 input[type="text"],
-textarea {
+textarea,
+select {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 0.8rem;
+    margin: 0.5rem 0 1rem;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    font-size: 0.9rem;
+    font-weight: 300;
+
+    &:focus {
+        outline: 0;
+        border: 1px solid black;
+    }
 }
 
+select {
+    height: 2rem;
+    background-color: #fff;
+    border-radius: 0;
+}
 
+textarea {
+    height: 7rem;
+}
 
 .error {
     color: red;
