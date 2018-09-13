@@ -37,8 +37,8 @@ body {
     margin-left: 19vw;
     margin-right: 3vw;
     max-height: 100%;
-    width: 100%;
-    max-width: 1000px;
+    width: 1200px;
+    max-width: 100%;
     display: flex;
     align-content: center;
     box-sizing: border-box;
@@ -71,43 +71,49 @@ body {
 }
 
 .container#overview {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 1rem;
-    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    max-width: 100%;
+    justify-content: center;
 
     @include media-query-p($on-laptop) {
-        grid-template-columns: auto auto;
+
         align-self: flex-start;
         margin-bottom: 2rem;    
     }
     @include media-query-p($on-mobile) {
-        grid-template-columns: auto;
+
     }
     @include media-query-l($on-laptop) {
-        grid-template-columns: auto auto;
+
         align-self: flex-start;
         margin-bottom: 2rem;    
     }
     @include media-query-l($on-mobile) {
-        grid-template-columns: auto;
+
     }
 }
 
 
 .project-wrapper {
     width: 300px;
-    height: 200px;
+    max-height: 200px;
+    margin: 0 1rem 1rem 0;
     img {
         max-width: 100%;
         max-height: 100%;
-        zoom: 2;
         vertical-align: middle;
     }
 
     &:hover {
         opacity: 0.8;
     }
+
+    @include media-query-p($on-mobile) {
+        margin-right: 0;
+    }
+
 }
 
 .container--single {
