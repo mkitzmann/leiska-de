@@ -45,6 +45,14 @@ collections:
     title: Ship
     output: true
     permalink: /photography/:collection/:title/
+  model:
+    title: Model
+    output: true
+    permalink: /photography/:collection/:title/
+  sand:
+    title: Sand
+    output: true
+    permalink: /photography/:collection/:title/
 
 responsive_image:
   # [Required]
