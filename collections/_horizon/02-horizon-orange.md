@@ -1,8 +1,8 @@
 ---
 layout: project-detail
-title: Horizon orange
-slug: horizon-orange
-image: /img/photography/horizon/LEISKA_200709k04.jpg
+title: 200509e03
+slug: 200509e03
+image: /img/photography/horizon/LEISKA_200509e03.jpg
 year: 2016
 archive_id: "#3031 10d"
 description: ""
@@ -11,5 +11,4 @@ prints:
     price: "1.000"
 -   title: "Leinwand 62x62cm, Tintendruck"
     price: "2.000"
-price: 5553
 ---
