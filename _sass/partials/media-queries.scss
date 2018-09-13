@@ -4,7 +4,7 @@
 
 @media all and (orientation:portrait) {
     .sidebar {
-        height: 20vh;
+        height: 25vh;
         width: 100%;
         padding-left: 8vw;
         padding-top: 4vh;
@@ -12,12 +12,12 @@
     }
     .content,
     .content#single {
-        margin: 20vh 0 12vh;
-        padding: 0 8%;
+        margin: 25vh 0 12vh;
+        padding: 0 8vw;
         justify-content: flex-start;
     }
     .content#overview {
-        margin-top: 20vh;
+        margin-top: 25vh;
     }
     .container#single {
         text-align: center;
@@ -41,7 +41,7 @@
 @media all and (max-width: 500px) and (orientation:portrait) {
     .content#overview {
         align-items: flex-start;
-        margin-top: 22vh;
+        margin-top: 25vh;
         margin-bottom: 0;
     }
 }
@@ -52,7 +52,7 @@
         margin-bottom: 0;
     }
     .content#single {
-        margin-top: 23vh;
+        margin-top: 25vh;
         margin-bottom: 5rem;
     }
 }

@@ -6,9 +6,19 @@
 
     .flex-column {
         flex: 1;
+        margin-right: 2rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
 
         img {
             max-width: 100%;
+        }
+
+        @media all and 
+        (max-width: 700px) {
+        margin-bottom: 2rem;
         }
     }
 

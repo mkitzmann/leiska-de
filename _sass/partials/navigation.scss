@@ -1,7 +1,6 @@
 @import "../lib/all";
 
 .sidebar {
-    //border: 1px solid red;
     position: fixed;
     height: 100vh;
     width: 18vw;
@@ -21,7 +20,11 @@
 }
 
 .logo {
-    height: 1.2rem;
+    height: 1.4rem;
+
+    @include media-query-p($on-mobile) {
+        height: 1.1rem;
+    }
 }
 
 .nc-icon-wrapper {
@@ -37,6 +40,12 @@ nav {
     margin-top: 4rem;
     z-index: 0;
     font-size: 1rem;
+
+    @include media-query-p($on-laptop) {
+        font-size: 0.9rem;
+        margin-top: 2rem;
+
+    }
 
     a {
         color: #000;

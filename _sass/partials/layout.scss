@@ -48,6 +48,14 @@ body {
 
 }
 
+.content-center{
+    align-items: center;
+
+    @include media-query-p($on-laptop) {
+        align-items: flex-start;
+    }
+}
+
 .content#single {
     margin-top: 8vh;
     margin-bottom: 8vh;
