@@ -1,14 +1,5 @@
 @import "../lib/all";
 
-.sideinfo {
-    position: absolute;
-    margin-top: 250px;
-
-    a {
-        color: $light-grey;
-    }
-}
-
 .logo {
     height: 1.4rem;
 
@@ -49,5 +40,19 @@ nav {
         &:hover {
             color: $light-grey;
         }
+    }
+}
+
+.sideinfo {
+    position: absolute;
+    margin-top: 250px;
+
+    a {
+        color: $light-grey;
+    }
+
+    @include media-query-portrait-only {
+        position: fixed;
+        bottom: 8vh;
     }
 }
