@@ -8,10 +8,14 @@
 <body>
   {% include header.html sideinfo="true" %}
 
-  <div class="content" id="single"> 
-      <a href="{{ page.previous.url | default: site[page.collection].last.url }}" class="gallery-prev"></a>
-      <a href="{{ page.next.url | default: site[page.collection].first.url  }}" class="gallery-next"></a>
-      <img class="fullsize fadein" src="{{ page.image }}">
+  <!-- 
+  <a href="{{ page.previous.url | default: site[page.collection].last.url }}" class="gallery-prev"></a>
+  <a href="{{ page.next.url | default: site[page.collection].first.url  }}" class="gallery-next"></a>
+  -->
+  <div class="container-detail">
+    <img class="fadein" src="{{ page.image }}">
+  </div>
+
 
 
     <div id="info" class="overlay">
@@ -127,9 +131,6 @@ Lieferung bitte an Rechnungsanschrift.
         
                 </div>
             </div>
-
-
-  </div>
 
   {% include footer.html %}
 </body>

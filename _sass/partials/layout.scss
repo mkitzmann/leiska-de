@@ -9,6 +9,7 @@
 
 html,
 body {
+    position: absolute;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -31,7 +32,9 @@ body {
     width: 18vw;
     display: flex;
     align-items: center;
+    min-height: 100%;
     padding-left: 3vw;
+    padding-top: 3vw;
     background: #fff;
     top: 0;
     bottom: 0;
@@ -42,25 +45,30 @@ body {
         padding-left: 8vw;
         padding-top: 2vh;
         z-index: 12;
+        min-height: auto;
+
     }
 
 }
 
 .content {
-    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
     margin-left: 19vw;
-    margin-right: 3vw;
-    width: 100%;
-    padding: 3vw 0;
     max-width: 1200px;
-    display: flex;
+    padding: 3vw;
     box-sizing: border-box;
 
     @include media-query-portrait-only() {
-        padding: 0 8vw;
+        padding: 4vh 8vw 0;
         margin-left: 0;
-        margin-top: 25vh;
-        height: 5vh;
+        margin-top:25vh;
+        margin-bottom: 25vh;
+        width: auto;
     }
 
     @include media-query-l($on-laptop) {
@@ -68,38 +76,41 @@ body {
     }
 }
 
-.content-center{
-    align-items: center;
+.vertical-center {
     min-height: 100%;
-}
-
-.content#single {
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.content#overview {
+    display: flex;
     align-items: center;
 }
 
-.container#overview {
+.container-list {
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
     max-width: 100%;
     justify-content: center;
 }
 
+.container-detail {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    img {
+        position: absolute;
+        display: block;
+        margin: auto;    
+        max-height: 100%;
+        max-width: 100%;
+        zoom: 1;
+    }
+}
 
 .project-wrapper {
     width: 300px;
     max-height: 200px;
     margin: 0 1rem 1rem 0;
+    
     img {
         max-width: 100%;
         max-height: 100%;
@@ -114,9 +125,4 @@ body {
         margin-right: 0;
     }
 
-}
-
-.container--single {
-    height: 100%;
-    width: 100%;
 }
