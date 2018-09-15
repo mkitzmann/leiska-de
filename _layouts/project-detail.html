@@ -29,21 +29,18 @@
                 {% for print in page.prints %}
                 <div style="width: 100%; display: flex; justify-content: space-between">
                     <span>{{ print.title }}</span>
-                    <span>{{ print.price }},00 €</span>
+                    <span>{{ print.price }}</span>
                 </div>
                 {% endfor %}
             </div>
            <div>
-                Lieferung erfolgt ungerahmt in Versandrolle.<br> 
-                Rahmung auf Anfrage.<br>
-                Gegen Vorkasse.<br>
+                Archival pigment print<br>
+                Signed on verso, plus extra certificate<br><br>
                 <a href="#order-de" class="btn">Bestellen</a>
                 <a href="#order-en" class="btn">Order</a>
            </div>
             <div class="popup-copyright">
-
-                Photograph and Copyright © by HEINER LEISKA<br>
-                Not to be reproduced in any form without written permission of the photographer
+                Photograph © by HEINER LEISKA<br>
             </div>
 
         </div>
@@ -61,7 +58,7 @@
                     <label for="email">E-Mail</label>
                     <input type="text" id="email" name="_replyto" placeholder="mail@example.com">
                     <label for="email">Anschrift</label>
-                    <input type="text" id="email" name="_replyto" placeholder="Musterstraße 2, 22765 Hamburg">
+                    <input type="text" id="email" name="_replyto" placeholder="Musterstraße 1, 12345 Musterstadt">
                     <label for="print">Ausführung</label>
                     <select name="print" id="print">
                         {% for print in page.prints %}
@@ -69,7 +66,7 @@
                         {% endfor %}
                     </select>
                     <label for="order">Bestellung</label>
-                    <textarea id="order" name="order">Ich bestelle 1 Exemplar des Bildes "{{ page.title }}" in der oben ausgewählten Ausführung.
+                    <textarea id="order" name="order">Ich bestelle 1 Exemplar des Bildes "{{ page.title }}" in der gewählten Ausführung.
 Lieferung bitte an Rechnungsanschrift. 
                     </textarea>
                     Lieferung erfolgt ungerahmt in Versandrolle.<br> 
@@ -110,7 +107,7 @@ Lieferung bitte an Rechnungsanschrift.
                             {% endfor %}
                         </select>
                         <label for="order">Order</label>
-                        <textarea id="order" name="order">Hereby I order one print of the "{{ page.title }}" in the aforementioned size.
+                        <textarea id="order" name="order">I hereby order one print of the "{{ page.title }}" in the selected size.
     Delivery to Invoice Address.
                         </textarea>
                         Lieferung erfolgt ungerahmt in Versandrolle.<br> 
