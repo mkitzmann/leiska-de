@@ -24,7 +24,7 @@ nav {
 
     @include media-query-p($on-laptop) {
         font-size: 0.9rem;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
 
     }
 
@@ -53,6 +53,6 @@ nav {
 
     @include media-query-portrait-only {
         position: fixed;
-        bottom: 8vh;
+        bottom: 6vh;
     }
 }

@@ -40,13 +40,13 @@ body {
     bottom: 0;
 
     @include media-query-portrait-only() {
-        height: 25vh;
+        align-items: flex-start;
+        height: 26vh;
         width: 100%;
         padding-left: 8vw;
-        padding-top: 2vh;
+        padding-top: 3vh;
         z-index: 12;
         min-height: auto;
-
     }
 
 }
