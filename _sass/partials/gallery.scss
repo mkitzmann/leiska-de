@@ -4,22 +4,22 @@
 * === GALLERY ===
 */
 
-a.gallery-next {
-    position: absolute;
-    width: 50%;
-    height: 100vh;
-    right: 0px;
-    cursor: e-resize;
-    z-index: 1;
-}
-
+a.gallery-next,
 a.gallery-prev {
     position: absolute;
     width: 50%;
-    left: 0px;
-    height: 100vh;
-    cursor: w-resize;
+    height: 90%;
     z-index: 1;
+}
+
+a.gallery-next {
+    right: 0px;
+    cursor: e-resize;
+}
+
+a.gallery-prev {
+    left: 0px;
+    cursor: w-resize;
 }
 
 .home-link {
