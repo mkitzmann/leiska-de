@@ -27,7 +27,7 @@
             </div>
             <div class="popup-price" style="width: 100%, display: flex">
                 {% for print in page.prints %}
-                <div  style="width: 100%; display: flex; justify-content: space-between">
+                <div style="width: 100%; display: flex; justify-content: space-between">
                     <span>{{ print.title }}</span>
                     <span>{{ print.price }},00 €</span>
                 </div>
@@ -65,7 +65,7 @@
                     <label for="print">Ausführung</label>
                     <select name="print" id="print">
                         {% for print in page.prints %}
-                            <option value="{{ print.title }}">{{ print.title }}, {{ print.price | append: ",00 €" }}</option>
+                            <option value="{{ print.title }}">{{ print.title }}, {{ print.price }}</option>
                         {% endfor %}
                     </select>
                     <label for="order">Bestellung</label>
@@ -106,7 +106,7 @@ Lieferung bitte an Rechnungsanschrift.
                         <label for="print">Print</label>
                         <select name="print" id="print">
                             {% for print in page.prints %}
-                                <option value="{{ print.title }}">{{ print.title }}, {{ print.price | replace: '.',',' | append: ".00 €" }}</option>
+                                <option value="{{ print.title }}">{{ print.title }}, {{ print.price | replace: '.',',' }}</option>
                             {% endfor %}
                         </select>
                         <label for="order">Order</label>
