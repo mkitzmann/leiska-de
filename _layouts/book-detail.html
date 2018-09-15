@@ -8,8 +8,7 @@
 <body>
   {% include header.html %}
 
-  <div class="content content-book"> 
-
+  <div class="vertical-center">
 
     <div class="book-wrapper">
         <div class="slides-container">
@@ -51,7 +50,7 @@
               {{page.de.edition}}<br>
               ISBN {{page.de.isbn}}<p/><p>
               {{page.de.price}} € inkl. Versand in Deutschland<p/><p>
-              {{page.de.text}}
+              {{page.de.text}}<br>
 
               <a href="#order" class="btn">Buch bestellen</a>
             
@@ -66,7 +65,7 @@
               {{page.en.edition}}<br>
               ISBN {{page.en.isbn}}<p/><p>
               {{page.en.price}} € inkl. Versand in Deutschland<p/><p>
-              {{page.en.text}}
+              {{page.en.text}}<br>
             
               <a href="#order" class="btn">Order Book</a>
 

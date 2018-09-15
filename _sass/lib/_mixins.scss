@@ -1,18 +1,24 @@
 // Use media queries like this:
-// @include media-query($on-palm) {
+// @include media-query-p($on-palm) {
 //   .wrapper {
 //     padding-right: $spacing-unit / 2;
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
-@mixin media-query-p($device) {
-    @media screen and (max-width: $device) and (orientation: portrait){
-      @content;
-    }
+@mixin media-query-portrait-only() {
+  @media screen and (orientation: portrait){
+    @content;
   }
+}
+
+@mixin media-query-p($device) {
+  @media screen and (max-width: $device) and (orientation: portrait){
+    @content;
+  }
+}
   
-  @mixin media-query-l($device) {
-      @media screen and (max-width: $device) and (orientation: landscape){
-        @content;
-      }
-    }
+@mixin media-query-l($device) {
+  @media screen and (max-width: $device) and (orientation: landscape){
+    @content;
+  }
+}

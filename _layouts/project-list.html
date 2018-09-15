@@ -8,11 +8,8 @@
 <body>
   {% include header.html %}
 
-<div class="content" id="overview">
-
-
-
-    <div class="container" id="overview">
+  <div class="vertical-center">
+    <div class="container-list">
         {% for project in page.projects %}
           {% assign collection = site[project.title] | first %}
           
@@ -22,9 +19,7 @@
         {% endfor %}
 
     </div>
-</div>
-
-
+  </div>
 
   {% include footer.html %}
 </body>
