@@ -13,11 +13,14 @@ img.fadein {
     animation: fadein 2s;
 }
 
-img.fullsize {
-    margin: auto;
-    //position: absolute;
-
-    max-height: 100%;
-    max-width: 100%;
-    zoom: 1;
+img.fadeout {
+    -webkit-animation: fadeout 500ms;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeout 500ms;
+    /* Firefox < 16 */
+    -ms-animation: fadeout 500ms;
+    /* Internet Explorer */
+    -o-animation: fadeout 500ms;
+    /* Opera < 12.1 */
+    animation: fadeout 500ms;
 }
