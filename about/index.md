@@ -23,8 +23,8 @@ contact: |-
     Germany  
 
     +49 176 31491402  
-    www.leiska.de  
     mail@leiska.de  
+    www.leiska.de  
 
     Design: Moritz Kitzmann + Heiner Leiska  
 
