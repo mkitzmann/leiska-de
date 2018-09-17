@@ -60,7 +60,7 @@ body {
     display: block;
     margin-left: 19vw;
     max-width: 1200px;
-    padding: 3vw;
+    padding: 4vw;
     box-sizing: border-box;
 
     @include media-query-portrait-only() {
