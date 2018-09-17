@@ -8,8 +8,9 @@ var callback = function() {
     var fadeImage = document.getElementById("fadeout");
     event.preventDefault();
     fadeImage.classList.add('fadeout');
+    fadeImage.classList.remove('fadein');
     var newLocation = this.href;
-    setTimeout(function(){window.location.assign(newLocation)}, 500);    
+    setTimeout(function(){window.location.assign(newLocation)}, 300);    
 };
 
 function fadeOutEffect(target) {

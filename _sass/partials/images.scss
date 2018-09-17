@@ -14,6 +14,7 @@
 }
 
 .fadeout {
+    opacity: 0;
     -webkit-animation: fadeout 500ms;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadeout 500ms;
