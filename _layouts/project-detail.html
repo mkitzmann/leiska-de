@@ -28,7 +28,7 @@
             <div class="popup-price" style="width: 100%, display: flex">
                 {% for print in page.prints %}
                 <div style="width: 100%; display: flex; justify-content: space-between">
-                    <span>{{ print.title }}</span>
+                    <span>{{ site.data.variables[print.variable] | default: print.title }}</span>
                     <span>{{ print.price }}</span>
                 </div>
                 {% endfor %}

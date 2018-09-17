@@ -1,7 +1,7 @@
 @import "../lib/all";
 
 
-img.fadein {
+.fadein {
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s;
@@ -13,7 +13,7 @@ img.fadein {
     animation: fadein 2s;
 }
 
-img.fadeout {
+.fadeout {
     -webkit-animation: fadeout 500ms;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadeout 500ms;
