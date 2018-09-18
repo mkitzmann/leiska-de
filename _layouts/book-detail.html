@@ -22,20 +22,13 @@
               {% assign next = counter | plus: 1 %}
             {% endif %} 
 
-            {% if counter == 1 %}
-              {% assign first_image = image %}
-            {% else %}            
-              <a href="#image-{{ next }}" class="slide" id="image-{{counter}}">
-                  <img class="fadein" src="{{ image }}">
-              </a>
-            {% endif %}        
+            <input type="radio" id="{{ counter }}" name="slide-image" class="slide-input" {% if counter == 1 %}checked{% endif %}>
+            <label for="{{ next }}" class="slide">
+              <img class="fadein slide-image" src="{{ image }}">
+            </label>
 
-          {% assign counter = counter | plus: 1 %}          
+          {% assign counter = counter | plus: 1 %}
         {% endfor %}
-
-        <a href="#image-2" class="slide" id="image-1">
-            <img class="fadein" src="{{ first_image }}">
-        </a>
 
         </div>
 

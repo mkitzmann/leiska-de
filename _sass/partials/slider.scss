@@ -1,0 +1,56 @@
+@import "../lib/all";
+
+.slides-container {
+    position: relative;
+    height: 40vmin;
+    margin-bottom: 5rem;
+    max-width: 100%;
+
+    
+    .slide {
+        border: 0;
+        height: 100%;
+        max-width: 100%;
+        position: absolute;
+        transition: opacity 0.5s ease;
+        opacity: 0;
+
+        &:focus {
+            border: 0;
+            outline: 0;
+        }
+
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+
+    .slide-input {
+        display: none;
+    }
+
+    .slide-input + label{
+        opacity: 0;
+    }
+
+    .slide-input:checked + label{
+        z-index: 10;
+        opacity: 1;
+        transition: opacity 0.5s ease 0.5s;
+        cursor: e-resize;
+
+    }
+}
+
+.slides-container > 
+.slide:target ~ .slide:last-child, 
+.slides-container > .slide {
+opacity: 0;
+  }
+  
+/* :last-child works, but for some reason .slide:last-child will not */
+.slides-container > :last-child, 
+.slides-container > .slide:target {
+opacity: 1;
+}
