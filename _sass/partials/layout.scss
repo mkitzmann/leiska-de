@@ -111,6 +111,29 @@ body {
     }
 }
 
+.container-home {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+
+
+    div {
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        img {  
+            margin: auto;
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+
+
+}
+
 .project-wrapper {
     width: 240px;
     max-height: 180px;

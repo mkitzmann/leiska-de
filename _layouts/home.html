@@ -15,11 +15,14 @@
 <body>
   {% include header.html %}
 
-  <div class="container-detail">
-    <a href="/photography/" class="home-link"></a>
-      <div class="spinner"></div>
-      <img class="" onload="fadeIn(this)" src="{{ page.image }}"  style="visibility: hidden">
-</div>
+    <div class="container-home">
+      <div>
+        <a href="/photography/" class="home-link"></a>
+        <p>{{ page.text.top }}</p>
+        <img class="" onload="fadeIn(this)" src="{{ page.image }}" style="visibility: hidden">
+        <p>{{ page.text.bottom }}</p>
+      </div>
+    </div>
 
   {% include footer.html %}
 </body>
