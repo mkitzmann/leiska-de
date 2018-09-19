@@ -68,7 +68,7 @@
                     <label for="print">Ausführung</label>
                     <select name="print" id="print">
                         {% for print in page.prints %}
-                            <option value="{{ print.title }}">{{ print.title }}, {{ print.price }}</option>
+                            <option value="{{ site.data.variables[print.variable] | default: print.title }}">{{ site.data.variables[print.variable] | default: print.title }}, {{ print.price }}</option>
                         {% endfor %}
                     </select>
                     <label for="order">Bestellung</label>
@@ -108,7 +108,7 @@ Lieferung bitte an: Rechnungsanschrift.
                         <label for="print">Print</label>
                         <select name="print" id="print">
                             {% for print in page.prints %}
-                                <option value="{{ print.title }}">{{ print.title }}, {{ print.price | replace: '.',',' }}</option>
+                                <option value="{{ site.data.variables[print.variable] | default: print.title }}">{{ site.data.variables[print.variable] | default: print.title }}, {{ print.price | replace: '.',',' }}</option>
                             {% endfor %}
                         </select>
                         <label for="order">Order</label>
