@@ -10,8 +10,7 @@
 
   <a href="{{ page.previous.url | default: site[page.collection].last.url }}" class="gallery-prev"></a>
   <a href="{{ page.next.url | default: site[page.collection].first.url  }}" class="gallery-next"></a>
-  <div class="container-detail"             
-  style="background:url({{ page.next.image }}) no-repeat -9999px -9999px">
+  <div class="container-detail">
     <img class="fadein" id="fadeout" src="{{ page.image }}">
   </div>
 
@@ -126,6 +125,9 @@ Delivery to Invoice Address.
             </div>
 
   {% include footer.html %}
+
+  <div class="preload"              
+  style="background:url({{ page.next.image }}) no-repeat -9999px -9999px"></div>
 </body>
 
 </html>
