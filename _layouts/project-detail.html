@@ -33,9 +33,9 @@
             </div>
             <div class="popup-price" style="width: 100%, display: flex">
                 {% for print in page.prints %}
-                <div style="width: 100%; display: flex; justify-content: space-between">
+                <div style="width: 100%; display: flex; justify-content: space-between; margin-bottom: 1rem">
                     <span>{{ site.data.variables[print.variable] | default: print.title }}</span>
-                    <span>{{ print.price }}</span>
+                    <span style="align-self: flex-end">{{ print.price }}</span>
                 </div>
                 {% endfor %}
             </div>
