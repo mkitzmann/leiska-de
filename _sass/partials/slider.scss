@@ -14,6 +14,8 @@
         position: absolute;
         transition: opacity 0.5s ease;
         opacity: 0;
+        display: block;
+        text-align: right;
 
         &:focus {
             border: 0;
@@ -39,18 +41,5 @@
         opacity: 1;
         transition: opacity 0.5s ease 0.5s;
         cursor: e-resize;
-
     }
-}
-
-.slides-container > 
-.slide:target ~ .slide:last-child, 
-.slides-container > .slide {
-opacity: 0;
-  }
-  
-/* :last-child works, but for some reason .slide:last-child will not */
-.slides-container > :last-child, 
-.slides-container > .slide:target {
-opacity: 1;
 }
