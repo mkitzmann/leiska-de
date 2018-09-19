@@ -1,0 +1,28 @@
+.spinner {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+    background-color: #eee;
+    opacity: 0;
+    border-radius: 100%;
+  
+    -webkit-animation: sk-scaleout 1.0s infinite ease;
+    animation: sk-scaleout 1.0s infinite ease;
+    animation-delay: 1s;
+  }
+  
+  @-webkit-keyframes sk-scaleout {
+    0% {       opacity: 0; }
+    100% {
+        opacity: 1;
+    }
+  }
+  
+  @keyframes sk-scaleout {
+    0% { 
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+
+    }
+  }

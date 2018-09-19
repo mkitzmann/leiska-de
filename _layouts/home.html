@@ -2,7 +2,14 @@
 <html>
   
 <head>
-	{% include head.html %}
+  {% include head.html %}
+  
+    <script>
+      function fadeIn(element) {
+          element.classList.add('fadein');
+          element.style.visibility = "visible";
+      }
+    </script>
 </head>
 
 <body>
@@ -10,7 +17,8 @@
 
   <div class="container-detail">
     <a href="/photography/" class="home-link"></a>
-     <img class="fadein" src="{{ page.image }}">
+      <div class="spinner"></div>
+      <img class="" onload="fadeIn(this)" src="{{ page.image }}"  style="visibility: hidden">
 </div>
 
   {% include footer.html %}

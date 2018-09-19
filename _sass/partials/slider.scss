@@ -32,14 +32,19 @@
         display: none;
     }
 
-    .slide-input + label{
+    .slide-input + label img{
         opacity: 0;
+        transition: opacity 0.5s ease 0.5s;
     }
 
-    .slide-input:checked + label{
-        z-index: 10;
+    .slide-input:checked + label img{
         opacity: 1;
         transition: opacity 0.5s ease 0.5s;
+    }
+
+    .slide-input:checked + label {
+        z-index: 10;
+        opacity: 1;
         cursor: e-resize;
     }
 }

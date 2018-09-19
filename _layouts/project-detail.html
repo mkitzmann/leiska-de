@@ -2,7 +2,14 @@
 <html>
 
 <head>
-  {% include head.html %}
+    {% include head.html %}
+
+    <script>
+        function fadeIn(element) {
+            element.classList.add('fadein');
+            element.style.visibility = "visible";
+        }
+    </script>
 </head>
 
 <body>
@@ -11,7 +18,8 @@
   <a href="{{ page.previous.url | default: site[page.collection].last.url }}" class="gallery-prev"></a>
   <a href="{{ page.next.url | default: site[page.collection].first.url  }}" class="gallery-next"></a>
   <div class="container-detail">
-    <img class="fadein" id="fadeout" src="{{ page.image }}">
+      <div class="spinner"></div>
+      <img class="" onload="fadeIn(this)" id="fadeout" src="{{ page.image }}" style="visibility: hidden">
   </div>
 
     <div id="info" class="overlay">
