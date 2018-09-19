@@ -10,11 +10,8 @@ var callback = function() {
     fadeImage.classList.add('fadeout');
     fadeImage.classList.remove('fadein');
     var newLocation = this.href;
-    setTimeout(function(){window.location.assign(newLocation)}, 300);    
+    window.location.assign(newLocation);    
 };
-
-function fadeOutEffect(target) {
-}
 
 for (var i = 0; i < classname.length; i++) {
     classname[i].addEventListener('click', callback, false);
