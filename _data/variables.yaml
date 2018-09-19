@@ -1,3 +1,7 @@
-4zu3_small: "Print: 42,0 cm x 29,7 cm </br> Image: 33,2 cm x 24,9 cm </br> Edition: 120 + 6 AP </br></br>"
-4zu3_medium: "Print: 100 cm x 77 cm </br> Image: 90 cm x 67 cm </br> Edition: 6 + 2 AP </br></br>"
-4zu3_large: "Print: 130 cm x 100 cm </br> Image: 120 cm x 90 cm </br> Edition: 6 + 2 AP </br></br>"
+4zu3_small: "Print: 42,0 cm x 29,7 cm </br> Image: 33,2 cm x 24,9 cm </br> Edition: 60 + 3 AP"
+4zu3_medium: "Print: 90 cm x 70 cm </br> Image: 80 cm x 60 cm </br> Edition: 6 + 2 AP"
+4zu3_large: "Print: 140 cm x 110 cm </br> Image: 120 cm x 90 cm </br> Edition: 6 + 2 AP"
+
+3zu2_small: "Print: 42,0 cm x 29,7 cm </br> Image: 37,2 cm x 24,9 cm </br> Edition: 60 + 3 AP"
+3zu2_medium: "Print: 100 cm x 70 cm </br> Image: 90 cm x 60 cm </br> Edition: 6 + 2 AP"
+3zu2_large: "Print: 140 cm x 100 cm </br> Image: 120 cm x 80 cm </br> Edition: 6 + 2 AP"

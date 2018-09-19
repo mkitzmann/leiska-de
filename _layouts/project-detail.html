@@ -40,8 +40,8 @@
                 {% endfor %}
             </div>
            <div>
-                Archival pigment print<br>
-                Certificate and signed on verso<br><br>
+                Archival pigment print with extra<br>
+                certificate and with Signature on verso<br><br>
                 <a href="#order-de" class="btn">Bestellen</a>
                 <a href="#order-en" class="btn">Order</a>
            </div>
@@ -60,7 +60,7 @@
                     <input type="hidden" name="_subject" value="Neue Bestellung für das Buch {{ page.title }}" />
                     <input type="hidden" name="_next" value="http://localhost:4000/books/cake/#thankyou" />
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Name">
+                    <input type="text" id="name" name="name" placeholder="Name, Vorname">
                     <label for="email">E-Mail</label>
                     <input type="text" id="email" name="_replyto" placeholder="mail@example.com">
                     <label for="email">Anschrift</label>
@@ -75,9 +75,9 @@
                     <textarea id="order" name="order">Ich bestelle das Bild "{{ page.title }}" in der gewählten Ausführung.
 Lieferung bitte an: Rechnungsanschrift. 
                     </textarea>
-                    Lieferung des Drucks in stabiler Versandrolle.<br> 
+                    Gegen Rechnung und Vorkasse.<br>
+                    Der Druck wird nach Zahlungseingang in stabiler Versandrolle geliefert.<br> 
                     Rahmung auf Anfrage.<br>
-                    Gegen Vorkasse.<br>
 
                     <input type="submit" value="Bestellung absenden" class="btn">
                     <a href="#info" class="btn cancel-btn">Abbrechen</a><br>
@@ -108,7 +108,7 @@ Lieferung bitte an: Rechnungsanschrift.
                         <label for="print">Print</label>
                         <select name="print" id="print">
                             {% for print in page.prints %}
-                                <option value="{{ site.data.variables[print.variable] | default: print.title }}">{{ site.data.variables[print.variable] | default: print.title }}, {{ print.price | replace: '.',',' }}</option>
+                                <option value="{{ site.data.variables[print.variable] | default: print.title }}">{{ site.data.variables[print.variable] | default: print.title }}, {{ print.price | replace: '.',','.}}</option>
                             {% endfor %}
                         </select>
                         <label for="order">Order</label>

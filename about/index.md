@@ -13,7 +13,7 @@ vita: |-
     | 1988 - 1999 | Parallel software company for architects and photographers |
     | 1990 | Concentrating on architectural models |
     | 1995 | Founding photo agency arturimages |
-    | 2003 | Beginning own projects like Bows |
+    | 2003 | Beginning own projects |
 contact: |-
     Contact
 
