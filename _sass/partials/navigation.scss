@@ -51,6 +51,11 @@ nav {
         color: $light-grey;
     }
 
+    .button {
+        margin-bottom: 0.5rem;
+        display: block;
+    }
+
     @include media-query-portrait-only {
         position: fixed;
         bottom: 6vh;
