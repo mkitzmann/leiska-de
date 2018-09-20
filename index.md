@@ -2,8 +2,8 @@
 layout: home
 title: HEINER LEISKA
 image: /img/LEISKA_200902b01.jpg
-alt: Heiner Leiska
+alt: HEINER LEISKA
 text:
-    top: Text Top
-    bottom: Text Bottom
+    top: "Under construction ..."
+    bottom: "... but the foundation is done!"
 ---
