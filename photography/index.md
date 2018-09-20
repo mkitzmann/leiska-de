@@ -10,7 +10,7 @@ projects:
   - title: model
     thumbnail: /img/photography/thumbnails/LEISKA_3276-02_thumb.jpg
   - title: sand
-    thumbnail: /img/photography/thumbnails/LEISKA_200803e14_thumb.jpg
+    thumbnail: /img/photography/thumbnails/LEISKA_200710d03_thumb.jpg
   - title: cake
     thumbnail: /img/photography/thumbnails/LEISKA_201209b083b_thumb.jpg
 ---
