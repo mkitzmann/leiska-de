@@ -58,6 +58,6 @@ nav {
 
     @include media-query-portrait-only {
         position: fixed;
-        bottom: 6vh;
+        bottom: 2rem;
     }
 }

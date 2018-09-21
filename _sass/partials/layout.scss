@@ -1,5 +1,10 @@
 @import "../lib/all";
 
+$_sidebar-height-portrait: 14rem;
+$_sidebar-height-mobile: 11rem;
+$_sideinfo-height-portrait: 9rem;
+$_sideinfo-height-mobile: 6rem;
+
 * {
     text-decoration: none;
     -webkit-box-sizing: border-box;
@@ -44,14 +49,17 @@ body {
 
     @include media-query-portrait-only() {
         align-items: flex-start;
-        height: 26vh;
+        height: $_sidebar-height-portrait;
         width: 100%;
         padding-left: 8vw;
-        padding-top: 3vh;
+        padding-top: 1.5rem;
         z-index: 12;
         min-height: auto;
     }
 
+    @include media-query-p($on-mobile) {
+        height: $_sidebar-height-mobile;
+    }
 }
 
 .content {
@@ -67,15 +75,20 @@ body {
     box-sizing: border-box;
 
     @include media-query-portrait-only() {
-        padding: 1vh 8vw 0;
+        padding: 0 8vw 0;
         margin-left: 0;
-        margin-top:25vh;
-        margin-bottom: 19vh;
+        margin-top: $_sidebar-height-portrait;
+        margin-bottom: $_sideinfo-height-portrait;
         width: auto;
     }
 
     @include media-query-l($on-laptop) {
         margin-left: 30vw;
+    }
+
+    @include media-query-p($on-mobile) {
+        margin-top: $_sidebar-height-mobile;
+        margin-bottom: $_sideinfo-height-mobile;
     }
 }
 
