@@ -1,0 +1,45 @@
+image:
+  de:
+    name: Name
+    email: Email
+    address: Adresse
+    order: Ausführung
+    text: "Ich bestelle das Bild \"%title%\" in der gewählten Ausführung. Lieferung bitte an: Rechnungsanschrift."
+    button: Bestellung absenden
+    disclaimer: Lieferung erfolgt ungerahmt in Versandrolle.<br> 
+      Framing or mapping on request.<br>
+      Payment in advance.<br>
+    confirm: Wollen Sie die Bestellung wirklich absenden?
+  en:
+    name: Name
+    email: Email
+    address: Address
+    order: Order
+    text: I hereby order one order of the image "%title%" in the selected size. Delivery to Invoice Address.
+    button: Submit Order
+    disclaimer: Lieferung erfolgt ungerahmt in Versandrolle.<br> 
+      Framing or mapping on request.<br>
+      Payment in advance.<br>
+    confirm: Do you really want to send the order?
+book:
+  de:
+    name: Name
+    email: Email
+    address: Adresse
+    order: Ausführung
+    text: "Ich bestelle das Buch \"%title%\". Lieferung bitte an: Rechnungsanschrift."
+    button: Bestellung absenden
+    disclaimer: Lieferung erfolgt in Versandkarton.<br> 
+      Payment in advance.<br>
+    confirm: Wollen Sie die Bestellung wirklich absenden?
+  en:
+    name: Name
+    email: Email
+    address: Address
+    order: Order
+    text: I hereby order the book "%title%". Delivery to Invoice Address.
+    button: Submit Order
+    disclaimer: Lieferung erfolgt in Versandkarton.<br> 
+      Payment in advance.<br>
+    confirm: Do you really want to send the order?
+    

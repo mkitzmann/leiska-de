@@ -25,9 +25,9 @@
     <div id="info" class="overlay">
         <a class="close-overlay" href="#"></a>
         <div class="popup">
+            <a class="close" href="#">×</a>
             <h2>{{ page.title }} / {{ page.year }}</h2>
             <h3>{{ page.archive_id }}</h3>
-            <a class="close" href="#">×</a>
             <div class="popup-content">
                 {{ page.description }}
             </div>
@@ -55,35 +55,12 @@
     <div id="order-de" class="overlay">
             <a class="close-overlay" href="#"></a>
             <div class="popup">
-                    <a class="close" href="#info">×</a>
-                <form action="https://formspree.io/mkitzmann@gmail.com" method="POST">
-                    <input type="hidden" name="_subject" value="Neue Bestellung für das Buch {{ page.title }}" />
-                    <input type="hidden" name="_next" value="http://localhost:4000/books/cake/#thankyou" />
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Name, Vorname">
-                    <label for="email">E-Mail</label>
-                    <input type="text" id="email" name="_replyto" placeholder="mail@example.com">
-                    <label for="email">Anschrift</label>
-                    <input type="text" id="email" name="_replyto" placeholder="Musterstraße 1, 12345 Musterstadt">
-                    <label for="print">Ausführung</label>
-                    <select name="print" id="print">
-                        {% for print in page.prints %}
-                            <option value="{{ site.data.variables[print.variable] | default: print.title }}">{{ site.data.variables[print.variable] | default: print.title }}, {{ print.price }}</option>
-                        {% endfor %}
-                    </select>
-                    <label for="order">Bestellung</label>
-                    <textarea id="order" name="order">Ich bestelle das Bild "{{ page.title }}" in der gewählten Ausführung.
-Lieferung bitte an: Rechnungsanschrift. 
-                    </textarea>
-                    Gegen Rechnung und Vorkasse.<br>
-                    Der Druck wird nach Zahlungseingang in stabiler Versandrolle geliefert.<br> 
-                    Rahmung auf Anfrage.<br>
+                <a class="close" href="#info">×</a>
+                <div class="popup-content">
 
-                    <input type="submit" value="Bestellung absenden" class="btn">
-                    <a href="#info" class="btn cancel-btn">Abbrechen</a><br>
-
-                </form>
-                
+                    {% include order-form.html language="de" type="image"%}
+                    
+                </div>
                 <div class="popup-copyright">
                     Photograph and Copyright © by HEINER LEISKA<br>
                 </div>
@@ -93,45 +70,25 @@ Lieferung bitte an: Rechnungsanschrift.
 
 
         <div id="order-en" class="overlay">
-                <a class="close-overlay" href="#"></a>
-                <div class="popup">
-                        <a class="close" href="#info">×</a>
-                    <form action="https://formspree.io/mkitzmann@gmail.com" method="POST">
-                        <input type="hidden" name="_subject" value="Neue Bestellung für das Buch {{ page.title }}" />
-                        <input type="hidden" name="_next" value="http://localhost:4000/books/cake/#thankyou" />
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Name">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="_replyto" placeholder="mail@example.com">
-                        <label for="email">Address</label>
-                        <input type="text" id="email" name="_replyto" placeholder="Musterstraße 1, 12345 Musterstadt">
-                        <label for="print">Print</label>
-                        <select name="print" id="print">
-                            {% for print in page.prints %}
-                                <option value="{{ site.data.variables[print.variable] | default: print.title }}">{{ site.data.variables[print.variable] | default: print.title }}, {{ print.price | replace: '.',',' }}</option>
-                            {% endfor %}
-                        </select>
-                        <label for="order">Order</label>
-                        <textarea id="order" name="order">I hereby order one print of the "{{ page.title }}" in the selected size.
-Delivery to Invoice Address.
-                        </textarea>
-                        Lieferung erfolgt ungerahmt in Versandrolle.<br> 
-                        Framing or mapping on request.<br>
-                        Payment in advance.<br>
-    
-                        <input type="submit" value="Order" class="btn">
-                        <a href="#info" class="btn cancel-btn">Cancel</a><br>
-    
-                    </form>
-                    
-                    <div class="popup-copyright">
-                        Photograph and Copyright © by HEINER LEISKA<br>
-                        Not to be reproduced in any form without written permission of the photographer
-                    </div>
-        
-                </div>
-            </div>
+            <a class="close-overlay" href="#"></a>
+            <div class="popup">
+                    <a class="close" href="#info">×</a>
+                    <div class="popup-content">
 
+                    {% include order-form.html language="en" type="image"%}
+                    </div>
+
+                
+                <div class="popup-copyright">
+                    Photograph and Copyright © by HEINER LEISKA<br>
+                    Not to be reproduced in any form without written permission of the photographer
+                </div>
+    
+            </div>
+        </div>
+
+        {% include thankyou.html %}
+        
   {% include footer.html %}
 
   <div class="preload"              

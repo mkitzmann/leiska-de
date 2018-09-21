@@ -1,5 +1,10 @@
 @import "../lib/all";
 
+$_sidebar-height-portrait: 14rem;
+$_sidebar-height-mobile: 11rem;
+$_sideinfo-height-portrait: 9rem;
+$_sideinfo-height-mobile: 6rem;
+
 * {
     text-decoration: none;
     -webkit-box-sizing: border-box;
@@ -44,14 +49,17 @@ body {
 
     @include media-query-portrait-only() {
         align-items: flex-start;
-        height: 26vh;
+        height: $_sidebar-height-portrait;
         width: 100%;
         padding-left: 8vw;
-        padding-top: 3vh;
+        padding-top: 1.5rem;
         z-index: 12;
         min-height: auto;
     }
 
+    @include media-query-p($on-mobile) {
+        height: $_sidebar-height-mobile;
+    }
 }
 
 .content {
@@ -63,19 +71,25 @@ body {
     display: block;
     margin-left: 19vw;
     max-width: 1200px;
-    padding: 6vh 6vw;
+    padding: 4rem;
     box-sizing: border-box;
 
     @include media-query-portrait-only() {
-        padding: 1vh 8vw 0;
+        padding: 0 8vw 0;
         margin-left: 0;
-        margin-top:25vh;
-        margin-bottom: 19vh;
+        margin-top: $_sidebar-height-portrait;
+        margin-bottom: $_sideinfo-height-portrait;
         width: auto;
     }
 
     @include media-query-l($on-laptop) {
         margin-left: 30vw;
+        padding: 2rem;
+    }
+
+    @include media-query-p($on-mobile) {
+        margin-top: $_sidebar-height-mobile;
+        margin-bottom: $_sideinfo-height-mobile;
     }
 }
 
@@ -90,6 +104,7 @@ body {
     flex-wrap: wrap;
     max-width: 100%;
     justify-content: center;
+    width: 1000px;
 }
 
 .container-detail {
@@ -118,20 +133,24 @@ body {
     align-items: center;
     display: flex;
 
-
-    div {
+    .home-link {
+        width: 100%;
         max-height: 100%;
-        display: flex;
-        flex-direction: column;
+        text-decoration: none;
+        color: black;
 
         img {  
             margin: auto;
-            max-height: 100%;
+            max-height: 80%;
             max-width: 100%;
         }
+
+        &:hover {
+            opacity: 0.9;
+            text-decoration: none;
+            color: black;
+        }
     }
-
-
 }
 
 .project-wrapper {

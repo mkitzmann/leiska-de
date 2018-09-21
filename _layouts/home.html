@@ -16,12 +16,11 @@
   {% include header.html %}
 
     <div class="container-home">
-      <div>
-        <a href="/photography/" class="home-link"></a>
+      <a href="/photography/" class="home-link">
         <p>{{ page.text.top }}</p>
         <img class="" onload="fadeIn(this)" src="{{ page.image }}" style="visibility: hidden">
         <p>{{ page.text.bottom }}</p>
-      </div>
+      </a>
     </div>
 
   {% include footer.html %}

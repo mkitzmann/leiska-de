@@ -28,8 +28,6 @@ contact: |-
     www.leiska.de  
 
     Design: Moritz Kitzmann + Heiner Leiska  
-
-    Privacy Policy / Datenschutzverordnung
 text: |-
     About
 

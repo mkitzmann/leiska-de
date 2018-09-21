@@ -32,6 +32,7 @@ nav {
         color: #000;
         display: block;
         padding-bottom: 1rem;
+        text-decoration: none;
 
         &.active {
             font-family: $bold-font;
@@ -58,6 +59,6 @@ nav {
 
     @include media-query-portrait-only {
         position: fixed;
-        bottom: 6vh;
+        bottom: 2rem;
     }
 }
