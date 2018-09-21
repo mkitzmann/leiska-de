@@ -6,3 +6,7 @@
         color: $light-grey;
     }
 }
+
+p:first-child {
+    margin-top: 0;
+}

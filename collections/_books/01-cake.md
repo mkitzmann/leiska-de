@@ -18,18 +18,18 @@ images:
 -   /img/books/cake/LEISKA_201808c12.jpg
 de:
     title: Bildband CAKE 
-    cover: Festeinband
-    pages: 120 Seiten
+    cover: Festeinband / Hardcover
+    pages: 120 Seiten / Pages
     languages: "Englisch, Schwedisch. Deutsch als Beilage."
     dimensions: 30 cm x 24 cm, ca. 1.200,00 g  
-    publisher: Eigenverlag 
-    edition: 1. Auflage 2018  
+    publisher: Eigenverlag / Self Published 
+    edition: 1. Auflage 2018 / 1. Edition 2018  
     isbn: 978-3-00-038066-2
     price: 39
     text: 
 en:
     title: Coffee Table Book CAKE 
-    cover: Hardcover
+    cover: 
     pages: 120 pages
     languages: English, Swedish. 
     dimensions: 30 cm x 24 cm, ca. 1.200,00 g  
@@ -39,3 +39,7 @@ en:
     price: 39
     text: 
 ---
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
