@@ -25,9 +25,9 @@
     <div id="info" class="overlay">
         <a class="close-overlay" href="#"></a>
         <div class="popup">
+            <a class="close" href="#">×</a>
             <h2>{{ page.title }} / {{ page.year }}</h2>
             <h3>{{ page.archive_id }}</h3>
-            <a class="close" href="#">×</a>
             <div class="popup-content">
                 {{ page.description }}
             </div>
@@ -56,9 +56,11 @@
             <a class="close-overlay" href="#"></a>
             <div class="popup">
                 <a class="close" href="#info">×</a>
-                    {% include order-form.html language="de" type="image"%}
+                <div class="popup-content">
 
-                
+                    {% include order-form.html language="de" type="image"%}
+                    
+                </div>
                 <div class="popup-copyright">
                     Photograph and Copyright © by HEINER LEISKA<br>
                 </div>
@@ -71,7 +73,10 @@
             <a class="close-overlay" href="#"></a>
             <div class="popup">
                     <a class="close" href="#info">×</a>
+                    <div class="popup-content">
+
                     {% include order-form.html language="en" type="image"%}
+                    </div>
 
                 
                 <div class="popup-copyright">

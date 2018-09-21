@@ -22,7 +22,9 @@
 
       <div class="flex-container">
           <div class="flex-column">
-              {{ page.contact | markdownify }}
+            {{ page.contact | markdownify }}
+
+            <a href="#privacy" class="link">Privacy Policy</a> / <a href="#datenschutz" class="link">Datenschutzverordnung</a>
           </div>
           <div class="flex-column">
             {{ page.text | markdownify }}
@@ -32,6 +34,27 @@
     </div>
   </div>
 
+
+  <div id="privacy" class="overlay">
+    <a class="close-overlay" href="#"></a>
+    <div class="popup" style="width: 1000px">
+      <a class="close" href="#">×</a>
+      <div class="popup-content">
+        {{ site.data.privacy.en | markdownify }}
+      </div>
+    </div>
+  </div>
+  
+  <div id="datenschutz" class="overlay">
+    <a class="close-overlay" href="#"></a>
+    <div class="popup" style="width: 1000px">
+      <a class="close" href="#">×</a>
+      <div class="popup-content">
+  
+        {{ site.data.privacy.de | markdownify }}
+      </div>
+    </div>
+  </div>
 
 
 

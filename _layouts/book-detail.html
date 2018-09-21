@@ -96,7 +96,10 @@
   <div id="order-de" class="overlay">
     <a class="close-overlay" href="#"></a>
     <div class="popup">
+        <a class="close" href="#">×</a>
+        <div class="popup-content">
       {% include order-form.html type="book" language="de" %}
+      </div>
       <div class="popup-copyright">
         Photograph and Copyright © by HEINER LEISKA<br>
         Not to be reproduced in any form without written permission of the photographer
@@ -108,11 +111,16 @@
   <div id="order-en" class="overlay">
       <a class="close-overlay" href="#"></a>
       <div class="popup">
-        {% include order-form.html type="book" language="en" %}
-        <div class="popup-copyright">
-          Photograph and Copyright © by HEINER LEISKA<br>
-          Not to be reproduced in any form without written permission of the photographer
-        </div>
+          <a class="close" href="#">×</a>
+
+          <div class="popup-content">
+
+          {% include order-form.html type="book" language="en" %}
+          </div>
+          <div class="popup-copyright">
+            Photograph and Copyright © by HEINER LEISKA<br>
+            Not to be reproduced in any form without written permission of the photographer
+          </div>
     
       </div>
     </div>
