@@ -9,6 +9,7 @@ image:
     disclaimer: Lieferung erfolgt ungerahmt in Versandrolle.<br> 
       Framing or mapping on request.<br>
       Payment in advance.<br>
+    confirm: Wollen Sie die Bestellung wirklich absenden?
   en:
     name: Name
     email: Email
@@ -19,6 +20,7 @@ image:
     disclaimer: Lieferung erfolgt ungerahmt in Versandrolle.<br> 
       Framing or mapping on request.<br>
       Payment in advance.<br>
+    confirm: Do you really want to send the order?
 book:
   de:
     name: Name
@@ -29,6 +31,7 @@ book:
     button: Bestellung absenden
     disclaimer: Lieferung erfolgt in Versandkarton.<br> 
       Payment in advance.<br>
+    confirm: Wollen Sie die Bestellung wirklich absenden?
   en:
     name: Name
     email: Email
@@ -38,3 +41,5 @@ book:
     button: Submit Order
     disclaimer: Lieferung erfolgt in Versandkarton.<br> 
       Payment in advance.<br>
+    confirm: Do you really want to send the order?
+    
