@@ -1,0 +1,26 @@
+<form action="{{ page.url }}#thankyou" name="{{ page.slug }}" method="POST" netlify>
+    <input type="hidden" name="_subject" value="Neue Bestellung für das Buch {{ page.title }}" />
+    <label for="name">{{site.data.order[include.language].name}}</label>
+    <input type="text" id="name" name="name" placeholder="Name">
+    <label for="email">{{site.data.order[include.language].email}}</label>
+    <input type="text" id="email" name="email" placeholder="mail@example.com">
+    <label for="email">{{site.data.order[include.language].address}}</label>
+    <input type="text" id="address" name="address" placeholder="Musterstraße 1, 12345 Musterstadt">
+    <label for="print">{{site.data.order[include.language].print}}</label>
+    <select name="print" id="print">
+        {% for print in page.prints %}
+            <option value="{{ site.data.variables[print.variable] | default: print.title }}">{{ site.data.variables[print.variable] | default: print.title }}, {{ print.price | replace: '.',',' }}</option>
+        {% endfor %}
+    </select>
+    <label for="order">Order</label>
+    <textarea id="order" name="order">
+        {{- site.data.order[include.language].text | replace: '%title%', page.title -}}
+
+    </textarea>
+    {{site.data.order[include.language].disclaimer}}
+
+
+    <input type="submit" value="{{site.data.order[include.language].button}}" class="btn">
+    <a href="#info" class="btn cancel-btn">Cancel</a><br>
+
+</form>

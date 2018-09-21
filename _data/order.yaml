@@ -1,0 +1,20 @@
+de:
+  name: Name
+  email: Email
+  address: Adresse
+  print: Ausführung
+  text: "Ich bestelle das Bild \"%title%\" in der gewählten Ausführung. Lieferung bitte an: Rechnungsanschrift."
+  button: Bestellung absenden
+  disclaimer: Lieferung erfolgt ungerahmt in Versandrolle.<br> 
+    Framing or mapping on request.<br>
+    Payment in advance.<br>
+en:
+  name: Name
+  email: Email
+  address: Address
+  print: Print
+  text: I hereby order one print of the image "%title%" in the selected size. Delivery to Invoice Address.
+  button: Submit Order
+  disclaimer: Lieferung erfolgt ungerahmt in Versandrolle.<br> 
+    Framing or mapping on request.<br>
+    Payment in advance.<br>

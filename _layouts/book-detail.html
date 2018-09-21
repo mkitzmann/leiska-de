@@ -96,9 +96,8 @@
   <div id="order" class="overlay">
       <a class="close-overlay" href="#"></a>
       <div class="popup">
-        <form action="https://formspree.io/mkitzmann@gmail.com" method="POST">
+          <form action="{{ page.url }}#thankyou" name="{{ page.slug }}" method="POST" netlify>
           <input type="hidden" name="_subject" value="Neue Bestellung für das Buch {{ page.title }}" />
-          <input type="hidden" name="_next" value="http://localhost:4000/books/cake/#thankyou" />
           <label for="name">Ihr Name</label>
           <input type="text" id="name" name="name" placeholder="Name">
           <label for="email">Ihre Email Adresse</label>
@@ -118,18 +117,8 @@
       </div>
     </div>
 
-    <div id="thankyou" class="overlay">
-        <a class="close-overlay" href="#"></a>
-        <div class="popup">
-          <p>
-          Danke für Ihre Bestellung, sie erhalten in Kürze eine Email mit der Rechnung.
-          </p><p>
-          Thank you for your order. You will receive an email with the Invoice shortly.
-          </p>
-          <a href="#" class="btn">Zurück zur Website</a>
-  
-        </div>
-      </div>
+    
+    {% include thankyou.html %}
 
   {% include footer.html %}
 </body>
