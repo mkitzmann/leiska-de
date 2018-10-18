@@ -8,13 +8,12 @@
 <body>
   {% include header.html %}
 
-  <div class="vertical-center">
+<div class="vertical-center">
 
-    <div class="book-wrapper">
-        <div class="slides-container">
-
-        {% assign counter = 1 %}
-        {% for image in page.images %}
+	<div class="book-wrapper">
+		<div class="slides-container">
+			{% assign counter = 1 %}
+			{% for image in page.images %}
 
             {% if counter == page.images.size %}
               {% assign next = 1 %}
@@ -30,9 +29,9 @@
 
             <input type="radio" id="{{ counter }}" name="slide-image" class="slide-input" {% if counter == 1 %}checked{% endif %}>
             <label for="{{ next }}" class="slide">
-              <img class="fadein slide-image" src="{{ image }}"><br>
+			<img class="fadein slide-image" src="{{ image }}"><br>
 
-              <label for="{{ prev }}">
+   			<label for="{{ prev }}">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="16" height="16" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
                     <g class="nc-icon-wrapper">
                         <path d="M352 115.4L331.3 96 160 256l171.3 160 20.7-19.3L201.5 256z"></path>
@@ -57,41 +56,27 @@
 
         
 
-        <div class="flex-container">
-          <div class="flex-column">
-              {{page.de.title}}<br>
-              {{page.de.cover}}<br>
-              {{page.de.pages}}<br>
-              {{page.de.languages}}<p/><p>
-              {{page.de.dimensions}}<br>
-              {{page.de.publisher}}<p/><p>
-              {{page.de.edition}}<br>
-              ISBN {{page.de.isbn}}<p/><p>
-              {{page.de.price}} € inkl. Versand in Deutschland<p/><p>
-              {{page.de.text}}<br>
+		<div class="flex-container">
+			<div class="flex-column">
+				
+			</div>
+			<div class="flex-column">
+				{{page.en.title}}<br>
+				{{page.en.cover}}<br>
+				{{page.en.pages}}<br>
+				{{page.en.languages}}<p/><p>
+				{{page.en.dimensions}}<br>
+				{{page.en.publisher}}<p/><p>
+				{{page.en.edition}}<br>
+				ISBN {{page.en.isbn}}<p/><p>
+				{{page.en.price}} € incl. mailing within Germany<p/><p>
+				{{page.en.text}}<br>
+				<a href="#order-en" class="btn">Order</a>   
+			</div>
+		</div>
+	</div>
 
-              <a href="#order-de" class="btn">Bestellen</a>
-            
-          </div>
-          <div class="flex-column">
-              {{page.en.title}}<br>
-              {{page.en.cover}}<br>
-              {{page.en.pages}}<br>
-              {{page.en.languages}}<p/><p>
-              {{page.en.dimensions}}<br>
-              {{page.en.publisher}}<p/><p>
-              {{page.en.edition}}<br>
-              ISBN {{page.en.isbn}}<p/><p>
-              {{page.en.price}} € incl. mailing within Germany<p/><p>
-              {{page.en.text}}<br>
-            
-              <a href="#order-en" class="btn">Order</a>
-
-          </div>
-      </div>
-    </div>
-
-  </div>
+</div>
 
   <div id="order-de" class="overlay">
     <a class="close-overlay" href="#"></a>
