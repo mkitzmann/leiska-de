@@ -56,27 +56,33 @@
 
         
 
-		<div class="flex-container">
-			<div class="flex-column">
-				
-			</div>
-			<div class="flex-column">
-				{{page.en.title}}<br>
-				{{page.en.cover}}<br>
-				{{page.en.pages}}<br>
-				{{page.en.languages}}<p/><p>
-				{{page.en.dimensions}}<br>
-				{{page.en.publisher}}<p/><p>
-				{{page.en.edition}}<br>
-				ISBN {{page.en.isbn}}<p/><p>
-				{{page.en.price}} € incl. mailing within Germany<p/><p>
-				{{page.en.text}}<br>
-				<a href="#order-en" class="btn">Order</a>   
-			</div>
-		</div>
-	</div>
+        <div class="flex-container">
+          <div class="flex-column">
+              {{page.de.title}}<br>
+              {{page.de.cover}}<br>
+              {{page.de.pages}}<br>
+              {{page.de.languages}}<p/><p>
+              {{page.de.dimensions}}<br>
+              {{page.de.publisher}}<p/><p>
+              {{page.de.edition}}<br>
+              ISBN {{page.de.isbn}}<p/><p>
+              {{page.de.price}} € inkl. Versand in Deutschland<p/><p>
+              {{page.de.text}}<br>
 
-</div>
+              <a href="#order-de" class="btn">Bestellen</a>
+              <a href="#order-en" class="btn">Order</a>
+          </div>
+          <div class="flex-column">
+            <p>{{page.title}}</p>
+              {{ content }}
+            
+              
+
+          </div>
+      </div>
+    </div>
+
+  </div>
 
   <div id="order-de" class="overlay">
     <a class="close-overlay" href="#"></a>
