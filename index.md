@@ -5,5 +5,5 @@ image: /img/LEISKA_200902b01.jpg
 alt: HEINER LEISKA
 text:
     top: "Under construction ..."
-    bottom: "... but the foundation is done!"
+    bottom: "... but more than the foundation is done!"
 ---
