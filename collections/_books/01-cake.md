@@ -40,7 +40,7 @@ en:
     text: 
 ---
 
-Kuchen. Kuchen sind ein doppelter Genuss, optisch und geschmacklich.
+Kuchen! Kuchen sind ein doppelter Genuss, in erster Linie optisch und dann geschmacklich. Wer hat es nicht schon erlebt, dass bei der Kuchenwahl fast immer 'der sieht gut aus, den nehme ich' statt 'der schmeckt gut' gesagt wird?
   
 Die Kuchen sind nicht gewaltig, nicht prätenziös, nicht steril perfektioniert, sie sind abwechslungsreich und doch wiedererkennbar.
   
