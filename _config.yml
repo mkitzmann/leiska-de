@@ -51,3 +51,7 @@ collections:
     title: Sand
     output: true
     permalink: /photography/:collection/:title/
+  cake:
+    title: Cake
+    output: true
+    permalink: /photography/:collection/:title/
