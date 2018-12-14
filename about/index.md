@@ -17,5 +17,4 @@ vita: |-
     | 2003 | Beginning own projects |
 text: |-
     About
-
 ---

@@ -68,34 +68,37 @@ nav {
         bottom: 2rem;
     }
 
-    .nc-icon-wrapper {
-        fill: #000;
 
-        &:hover {
-            fill: $light-grey;
-        }
-    }
-
-    .counter {
-        color: $light-grey;
-        min-width: 3rem;
-        display: inline-block;
-        text-align: center;
-        line-height: 28px;
-        vertical-align: top;
-        font-size: 1rem;
-    }
 
     .info-button {
         margin-right: 1rem;
     }
+}
 
-    .svg-icon {
-        display: inline-flex;
-        align-self: center;
-      }
-    .svg-icon svg {
-        height:24px;
-        width:24px;
+.nc-icon-wrapper {
+    fill: #000;
+
+    &:hover {
+        fill: $light-grey;
     }
+}
+
+
+.svg-icon {
+    display: inline-flex;
+    align-self: center;
+  }
+.svg-icon svg {
+    height:24px;
+    width:24px;
+}
+
+.counter {
+    color: $light-grey;
+    min-width: 3rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;
+    vertical-align: top;
+    font-size: 1rem;
 }

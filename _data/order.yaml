@@ -1,7 +1,7 @@
 image:
   de:
     name: Name
-    email: Email
+    email: E-Mail
     address: Adresse
     order: Ausführung
     text: "Ich bestelle das Bild \"%title%\" in der gewählten Ausführung. Lieferung bitte an: Rechnungsanschrift."

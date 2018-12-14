@@ -29,19 +29,21 @@
 
             <input type="radio" id="{{ counter }}" name="slide-image" class="slide-input" {% if counter == 1 %}checked{% endif %}>
             <label for="{{ next }}" class="slide">
-			<img class="fadein slide-image" src="{{ image }}"><br>
+              <img class="fadein slide-image" src="{{ image }}"><br>
 
-   			<label for="{{ prev }}">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="16" height="16" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+              <label for="{{ prev }}"class="svg-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="24" height="24" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
                     <g class="nc-icon-wrapper">
                         <path d="M352 115.4L331.3 96 160 256l171.3 160 20.7-19.3L201.5 256z"></path>
                     </g>
-                </svg>
+                  </svg>
               </label>
-
-              {{ counter }}/{{ page.images.size }}
-              <label for="{{ next }}" class="slide-next">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="16" height="16" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+              <div class="counter">
+                {{ counter }}/{{ page.images.size }}
+                
+              </div>
+              <label for="{{ next }}" class="slide-next svg-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="24" height="24" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
                     <g class="nc-icon-wrapper">
                         <path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"></path>
                     </g>
