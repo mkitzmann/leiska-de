@@ -22,7 +22,21 @@
 
       <div class="flex-container">
           <div class="flex-column">
-            {{ page.contact | markdownify }}
+            <p>Contact</p>
+            <p>
+              {{ site.data.settings.name }}<br/>
+              {{ site.data.settings.address.street }}<br/>
+              {{ site.data.settings.address.post-code }}
+              {{ site.data.settings.address.city }}
+            </p>
+            <p>
+              {{ site.data.settings.phone }}<br/>
+              <a href="mailto:{{ site.data.settings.email }}" class="link">{{ site.data.settings.email }}</a><br/>
+              {{ site.data.settings.web }}
+            </p>
+            <p>
+              Design: {{ site.data.settings.design }}
+            </p>
 
             <a href="#privacy" class="link">Privacy Policy</a> / <a href="#datenschutz" class="link">Datenschutzverordnung</a>
           </div>
