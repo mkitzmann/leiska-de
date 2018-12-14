@@ -46,19 +46,56 @@ nav {
 
 .sideinfo {
     position: absolute;
-    margin-top: 250px;
+    margin-top: 170px;
 
     a {
-        color: $light-grey;
+        cursor: pointer;
+        color: #000;
+        
+        &:hover {
+            color: $light-grey;
+        }
     }
 
     .button {
         margin-bottom: 0.5rem;
         display: block;
+        font-size: 1rem;
     }
 
     @include media-query-portrait-only {
         position: fixed;
         bottom: 2rem;
+    }
+
+    .nc-icon-wrapper {
+        fill: #000;
+
+        &:hover {
+            fill: $light-grey;
+        }
+    }
+
+    .counter {
+        color: $light-grey;
+        min-width: 3rem;
+        display: inline-block;
+        text-align: center;
+        line-height: 28px;
+        vertical-align: top;
+        font-size: 1rem;
+    }
+
+    .info-button {
+        margin-right: 1rem;
+    }
+
+    .svg-icon {
+        display: inline-flex;
+        align-self: center;
+      }
+    .svg-icon svg {
+        height:24px;
+        width:24px;
     }
 }

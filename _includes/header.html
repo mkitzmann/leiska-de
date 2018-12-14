@@ -34,35 +34,39 @@
 
     <div class="sideinfo">
             <a class="button" href="#info">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 48 48">
-                    <g class="nc-icon-wrapper">
-                        <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm2 30h-4V22h4v12zm0-16h-4v-4h4v4z"></path>
-                    </g>
-                </svg>
                 {{ page.title }}
             </a>
-            {% if site[page.collection].size != 1 %}
-                <div class="counter-wrapper">
-                    <a href="{{ page.previous.url | default: site[page.collection].last.url }}">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="16" height="16" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+
+            
+            <div class="counter-wrapper">
+                <a class="info-button svg-icon" href="#info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                        <g class="nc-icon-wrapper">
+                            <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm2 30h-4V22h4v12zm0-16h-4v-4h4v4z"></path>
+                        </g>
+                    </svg>
+                </a>
+                {% if site[page.collection].size != 1 %}
+                    <a href="{{ page.previous.url | default: site[page.collection].last.url }}"  class="svg-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="24" height="24" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
                             <g class="nc-icon-wrapper">
                                 <path d="M352 115.4L331.3 96 160 256l171.3 160 20.7-19.3L201.5 256z"></path>
                             </g>
                         </svg>
                     </a>
 
-                    <span class="counter">{{ current_page }}/{{ site[page.collection] | size }}</span>
+                    <div class="counter">{{ current_page }}/{{ site[page.collection] | size }}</div>
 
-                    <a href="{{ page.next.url | default: site[page.collection].first.url  }}">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="16" height="16" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+                    <a href="{{ page.next.url | default: site[page.collection].first.url  }}"  class="svg-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="24" height="24" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
                             <g class="nc-icon-wrapper">
                                 <path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"></path>
                             </g>
                         </svg>
                     </a>
-                    
-                </div>
-            {% endif %}
+                
+                {% endif %}
+            </div>
         </div>
     {% endif %}
 
