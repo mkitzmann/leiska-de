@@ -5,5 +5,5 @@ image: /img/LEISKA_201808c01b.jpg
 alt: HEINER LEISKA
 text:
     top: "xxxxx"
-    bottom: "yyyyy!"
+    bottom: "22222222!"
 ---
