@@ -1,18 +1,130 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: "/img/uploads"
+media_folder: "/img/uploads/"
+site_url: https://www.leiska.de
+logo_url: https://www.leiska.de/img/logo/heinerleiska-logo.svg
 collections:
-  - name: "architecture" # Used in routes, e.g., /admin/collections/blog
-    label: "Architecture" # Used in the UI
-    folder: "collections/_architecture" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "architecture" 
+    label: "Architecture" 
+    folder: "collections/_architecture" 
+    create: true 
+    slug: "{{position}}-{{fields.slug}}"
+    fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "position", widget: "number"}
       - {label: "Photo", name: "image", widget: "image"}
       - {label: "Year", name: "year", widget: "string"}
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "cake" 
+    label: "Cake" 
+    folder: "collections/_cake" 
+    create: true 
+    slug: "{{position}}-{{fields.slug}}"
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "position", widget: "number"}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "horizon" 
+    label: "Horizon" 
+    folder: "collections/_horizon" 
+    create: true 
+    slug: "{{position}}-{{fields.slug}}"
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "position", widget: "number"}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "model" 
+    label: "Model" 
+    folder: "collections/_model" 
+    create: true 
+    slug: "{{position}}-{{fields.slug}}"
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "position", widget: "number"}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "sand" 
+    label: "Sand" 
+    folder: "collections/_sand" 
+    create: true 
+    slug: "{{position}}-{{fields.slug}}"
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "position", widget: "number"}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "ship" 
+    label: "Ship" 
+    folder: "collections/_ship" 
+    create: true 
+    slug: "{{position}}-{{fields.slug}}"
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "position", widget: "number"}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "books" 
+    label: "Books" 
+    folder: "collections/_books" 
+    create: true 
+    slug: "{{position}}-{{fields.slug}}"
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "book-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        field: {label: "Image", name: "image", widget: "image"}
+      - label: "Deutsch"
+        name: "de"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Cover", name: "cover", widget: "string"}
+          - {label: "Pages", name: "pages", widget: "string"}
+          - {label: "languages", name: "languages", widget: "string"}
+          - {label: "dimensions", name: "dimensions", widget: "string"}
+          - {label: "publisher", name: "publisher", widget: "string"}
+          - {label: "edition", name: "edition", widget: "string"}
+          - {label: "isbn", name: "isbn", widget: "string"}
+          - {label: "price", name: "price", widget: "number"}
+      - { label: 'Text', name: 'body', widget: 'markdown' }
+  - label: "Pages"
+    name: "pages"
+    files:
+      - name: "about"
+        label: "About"
+        file: "about/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
+          - {label: "Image", name: "image", widget: "image"}
+          - { label: 'Vita', name: 'vita', widget: 'markdown' }
+          - { label: 'About', name: 'text', widget: 'markdown' }

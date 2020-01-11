@@ -1,6 +1,6 @@
 ---
 layout: about
-image: /img/about/LEISKA_201109b04b.jpg
+image: LEISKA_201109b04b.jpg
 vita: |-
     | 1946 | Start |
     | 1963 | Sailor |

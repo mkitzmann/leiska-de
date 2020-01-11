@@ -29,7 +29,7 @@
 
             <input type="radio" id="{{ counter }}" name="slide-image" class="slide-input" {% if counter == 1 %}checked{% endif %}>
             <label for="{{ next }}" class="slide">
-              <img class="fadein slide-image" src="{{ image }}"><br>
+              <img class="fadein slide-image" src="/img/uploads/{{ image }}"><br>
 
               <label for="{{ prev }}"class="svg-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="24" height="24" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
@@ -71,8 +71,8 @@
               {{page.de.price}} € inkl. Versand in Deutschland<p/><p>
               {{page.de.text}}<br>
 
-              <a href="#order-de" class="btn">Bestellen</a>
-              <a href="#order-en" class="btn">Order</a>
+<!--              <a href="#order-de" class="btn">Bestellen</a>-->
+<!--              <a href="#order-en" class="btn">Order</a>-->
           </div>
           <div class="flex-column">
             <p>{{page.title}}</p>
@@ -86,39 +86,39 @@
 
   </div>
 
-  <div id="order-de" class="overlay">
-    <a class="close-overlay" href="#"></a>
-    <div class="popup">
-        <a class="close" href="#">×</a>
-        <div class="popup-content">
-      {% include order-form.html type="book" language="de" %}
-      </div>
-      <div class="popup-copyright">
-        Photograph and Copyright © by HEINER LEISKA<br>
-        Not to be reproduced in any form without written permission of the photographer
-      </div>
-  
-    </div>
-  </div>
+<!--  <div id="order-de" class="overlay">-->
+<!--    <a class="close-overlay" href="#"></a>-->
+<!--    <div class="popup">-->
+<!--        <a class="close" href="#">×</a>-->
+<!--        <div class="popup-content">-->
+<!--      {% include order-form.html type="book" language="de" %}-->
+<!--      </div>-->
+<!--      <div class="popup-copyright">-->
+<!--        Photograph and Copyright © by HEINER LEISKA<br>-->
+<!--        Not to be reproduced in any form without written permission of the photographer-->
+<!--      </div>-->
+<!--  -->
+<!--    </div>-->
+<!--  </div>-->
 
-  <div id="order-en" class="overlay">
-      <a class="close-overlay" href="#"></a>
-      <div class="popup">
-          <a class="close" href="#">×</a>
+<!--  <div id="order-en" class="overlay">-->
+<!--      <a class="close-overlay" href="#"></a>-->
+<!--      <div class="popup">-->
+<!--          <a class="close" href="#">×</a>-->
 
-          <div class="popup-content">
+<!--          <div class="popup-content">-->
 
-          {% include order-form.html type="book" language="en" %}
-          </div>
-          <div class="popup-copyright">
-            Photograph and Copyright © by HEINER LEISKA<br>
-            Not to be reproduced in any form without written permission of the photographer
-          </div>
-    
-      </div>
-    </div>
-    
-    {% include thankyou.html %}
+<!--          {% include order-form.html type="book" language="en" %}-->
+<!--          </div>-->
+<!--          <div class="popup-copyright">-->
+<!--            Photograph and Copyright © by HEINER LEISKA<br>-->
+<!--            Not to be reproduced in any form without written permission of the photographer-->
+<!--          </div>-->
+<!--    -->
+<!--      </div>-->
+<!--    </div>-->
+<!--    -->
+<!--    {% include thankyou.html %}-->
 
   {% include footer.html %}
 </body>
