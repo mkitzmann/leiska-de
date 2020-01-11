@@ -2,20 +2,20 @@
 title: CAKE
 slug: cake
 layout: book-detail
-thumbnail: /img/books/cake/cakes_thumb.jpg
+thumbnail: cakes_thumb.jpg
 images:
--   /img/books/cake/LEISKA_201808c01.jpg
--   /img/books/cake/LEISKA_201808c02.jpg
--   /img/books/cake/LEISKA_201808c03.jpg
--   /img/books/cake/LEISKA_201808c04.jpg
--   /img/books/cake/LEISKA_201808c05.jpg
--   /img/books/cake/LEISKA_201808c06.jpg
--   /img/books/cake/LEISKA_201808c07.jpg
--   /img/books/cake/LEISKA_201808c08.jpg
--   /img/books/cake/LEISKA_201808c09.jpg
--   /img/books/cake/LEISKA_201808c10.jpg
--   /img/books/cake/LEISKA_201808c11.jpg
--   /img/books/cake/LEISKA_201808c12.jpg
+-   LEISKA_201808c01.jpg
+-   LEISKA_201808c02.jpg
+-   LEISKA_201808c03.jpg
+-   LEISKA_201808c04.jpg
+-   LEISKA_201808c05.jpg
+-   LEISKA_201808c06.jpg
+-   LEISKA_201808c07.jpg
+-   LEISKA_201808c08.jpg
+-   LEISKA_201808c09.jpg
+-   LEISKA_201808c10.jpg
+-   LEISKA_201808c11.jpg
+-   LEISKA_201808c12.jpg
 de:
     title: Bildband CAKE 
     cover: Festeinband / Hardcover

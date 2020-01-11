@@ -1,15 +1,18 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: "img/uploads"
+media_folder: "/img/uploads"
 collections:
   - name: "architecture" # Used in routes, e.g., /admin/collections/blog
     label: "Architecture" # Used in the UI
-    folder: "_architecture" # The path to the folder where the documents are stored
+    folder: "collections/_architecture" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}

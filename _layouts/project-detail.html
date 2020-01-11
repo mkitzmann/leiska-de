@@ -19,7 +19,7 @@
   <a href="{{ page.next.url | default: site[page.collection].first.url  }}" class="gallery-next"></a>
   <div class="container-detail">
       <div class="spinner"></div>
-      <img class="" onload="fadeIn(this)" id="fadeout" src="{{ page.image }}" style="visibility: hidden">
+      <img class="" onload="fadeIn(this)" id="fadeout" src="/img/uploads/{{ page.image }}" style="visibility: hidden">
   </div>
 
     <div id="info" class="overlay">
@@ -28,62 +28,15 @@
             <a class="close" href="#">×</a>
             <h2>{{ page.title }} / {{ page.year }}</h2>
             <h3>{{ page.archive_id }}</h3>
-            <div class="popup-content">
+            <div class="popup-content" style="margin-bottom: 1rem;">
                 {{ page.description }}
             </div>
-            <div class="popup-price" style="width: 100%, display: flex">
-                {% for print in page.prints %}
-                <div style="width: 100%; display: flex; justify-content: space-between; margin-bottom: 1rem">
-                    <span>{{ site.data.variables[print.variable] | default: print.title }}</span>
-                    <span style="align-self: flex-end">{{ print.price }}</span>
-                </div>
-                {% endfor %}
-            </div>
-			<div>
-                Archival pigment print with extra<br>
-                certificate and with signature on verso<br><br>
-                <a href="#order-de" class="btn">Bestellen</a>
-                <a href="#order-en" class="btn">Order</a>
-           </div>
             <div class="popup-copyright">
-                Photograph and © by HEINER LEISKA<br>
+                Photograph and Copyright © by HEINER LEISKA<br>
+                Not to be reproduced in any form without written permission of the photographer
             </div>
         </div>
     </div>
-
-    <div id="order-de" class="overlay">
-		<a class="close-overlay" href="#"></a>
-		<div class="popup">
-                <a class="close" href="#info">×</a>
-                <div class="popup-content">
-
-                    {% include order-form.html language="de" type="image"%}
-                    
-                </div>
-                <div class="popup-copyright">
-                    Photograph and Copyright © by HEINER LEISKA<br>
-                </div>
-            </div>
-        </div>
-
-        <div id="order-en" class="overlay">
-            <a class="close-overlay" href="#"></a>
-            <div class="popup">
-				<a class="close" href="#info">×</a>
-                    <div class="popup-content">
-
-                    {% include order-form.html language="en" type="image"%}
-                    </div>
-                
-                <div class="popup-copyright">
-                    Photograph and Copyright © by HEINER LEISKA<br>
-                    Not to be reproduced in any form without written permission of the photographer
-                </div>
-    
-            </div>
-        </div>
-
-        {% include thankyou.html %}
         
   {% include footer.html %}
 
