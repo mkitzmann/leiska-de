@@ -5,6 +5,41 @@ media_folder: "/img/uploads/"
 site_url: https://www.leiska.de
 logo_url: https://www.leiska.de/img/logo/heinerleiska-logo.svg
 collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - name: "home"
+        label: "Home"
+        file: "index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Alternative Text", name: "alt", widget: "string"}
+          - label: "Text"
+            name: "text"
+            widget: "object"
+            fields:
+              - {label: "Top", name: "top", widget: "string"}
+              - {label: "Bottom", name: "bottom", widget: "string"}
+      - name: "about"
+        label: "About"
+        file: "about/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
+          - {label: "Image", name: "image", widget: "image"}
+          - { label: 'Vita', name: 'vita', widget: 'markdown' }
+          - { label: 'About', name: 'text', widget: 'markdown' }
+      - name: "photography"
+        label: "Photography"
+        file: "photography/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "project-list"}
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Thumbnail", name: "thumbnail", widget: "image"}
   - name: "architecture" 
     label: "Architecture" 
     folder: "collections/_architecture" 
@@ -117,14 +152,3 @@ collections:
           - {label: "isbn", name: "isbn", widget: "string"}
           - {label: "price", name: "price", widget: "number"}
       - { label: 'Text', name: 'body', widget: 'markdown' }
-  - label: "Pages"
-    name: "pages"
-    files:
-      - name: "about"
-        label: "About"
-        file: "about/index.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
-          - {label: "Image", name: "image", widget: "image"}
-          - { label: 'Vita', name: 'vita', widget: 'markdown' }
-          - { label: 'About', name: 'text', widget: 'markdown' }
