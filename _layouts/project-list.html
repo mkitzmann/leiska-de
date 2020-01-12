@@ -14,7 +14,7 @@
           {% assign collection = site[project.title] | first %}
           
           <a href="{{ collection.url }}" class="project-wrapper">
-              <img class="grid fadein" src="{{ project.thumbnail }}">
+              <img class="grid fadein" src="/img/uploads/{{ project.thumbnail }}">
           </a>
         {% endfor %}
 
