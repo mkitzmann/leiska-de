@@ -24,16 +24,18 @@
 
     <div id="info" class="overlay">
         <a class="close-overlay" href="#"></a>
-        <div class="popup">
-            <a class="close" href="#">×</a>
-            <h2>{{ page.title }} / {{ page.year }}</h2>
-            <h3>{{ page.archive_id }}</h3>
-            <div class="popup-content" style="margin-bottom: 1rem;">
-                {{ page.description }}
-            </div>
-            <div class="popup-copyright">
-                Photograph and Copyright © by HEINER LEISKA<br>
-                Not to be reproduced in any form without written permission of the photographer
+        <div class="content" style="display: flex; align-items: center;justify-content: center;">
+            <div class="popup">
+                <a class="close" href="#">×</a>
+                <h2>{{ page.title }} / {{ page.year }}</h2>
+                <h3>{{ page.archive_id }}</h3>
+                <div class="popup-content" style="margin-bottom: 1rem;">
+                    {{ page.description }}
+                </div>
+                <div class="popup-copyright">
+                    Photograph and Copyright © by HEINER LEISKA<br>
+                    Not to be reproduced in any form without written permission of the photographer
+                </div>
             </div>
         </div>
     </div>

@@ -1,0 +1,24 @@
+{
+  "name": "heiner_static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "netlify-cli": "^2.35.0",
+    "netlify-cms": "^2.10.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkitzmann/leiska-de.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkitzmann/leiska-de/issues"
+  },
+  "homepage": "https://github.com/mkitzmann/leiska-de#readme"
+}

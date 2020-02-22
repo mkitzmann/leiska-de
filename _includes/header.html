@@ -3,7 +3,6 @@
     <div class="navigation">
         <a href="/" class="logo"><img src="/img/logo/heinerleiska-logo.svg" class="logo"></a>
         <nav class="main">
-
             <a href="/photography/" 
             {% if page.url contains "photography" %}
             	class="active"
@@ -33,17 +32,12 @@
     {% endfor %}
 
     <div class="sideinfo">
-            <a class="button" href="#info">
-                {{ page.title }}
-            </a>
-
-            
             <div class="counter-wrapper">
                 <a class="info-button svg-icon" href="#info">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
-                        <g class="nc-icon-wrapper">
-                            <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm2 30h-4V22h4v12zm0-16h-4v-4h4v4z"></path>
-                        </g>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM13 17H11V11H13V17ZM13 9H11V7H13V9Z" fill="#BDBDBD"/>
+                        <rect x="11" y="7" width="2" height="2" fill="#333333"/>
+                        <rect x="11" y="11" width="2" height="6" fill="#333333"/>
                     </svg>
                 </a>
                 {% if site[page.collection].size != 1 %}

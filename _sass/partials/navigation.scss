@@ -45,7 +45,6 @@ nav {
 }
 
 .sideinfo {
-    position: absolute;
     margin-top: 170px;
 
     a {
@@ -68,10 +67,12 @@ nav {
         bottom: 2rem;
     }
 
-
-
     .info-button {
         margin-right: 1rem;
+
+        path {
+            fill: #bbb;
+        }
     }
 }
 
