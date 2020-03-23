@@ -14,34 +14,34 @@ collections:
     title: Books
     output: true
     permalink: /:collection/:title/
-    sorty_by: position
+    sort_by: position
   architecture:
     title: Architecture
     output: true
     permalink: /photography/:collection/:title/
-    sorty_by: position
+    sort_by: position
   horizon:
     title: Horizon
     output: true
     permalink: /photography/:collection/:title/
-    sorty_by: position
+    sort_by: position
   ship:
     title: Ship
     output: true
     permalink: /photography/:collection/:title/
-    sorty_by: position
+    sort_by: position
   model:
     title: Model
     output: true
     permalink: /photography/:collection/:title/
-    sorty_by: position
+    sort_by: position
   sand:
     title: Sand
     output: true
     permalink: /photography/:collection/:title/
-    sorty_by: position
+    sort_by: position
   cake:
     title: Cake
     output: true
     permalink: /photography/:collection/:title/
-    sorty_by: position
+    sort_by: position
