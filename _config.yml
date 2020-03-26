@@ -3,7 +3,7 @@ email: mail@leiska.de
 description: >- # this means to ignore newlines until "baseurl:"
   Less images!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://leiska.de" # the base hostname & protocol for your site, e.g. http://leika.de
+url: "https://www.leiska.de" # the base hostname & protocol for your site, e.g. http://leika.de
 
 # Build settings
 markdown: kramdown
@@ -12,36 +12,29 @@ collections_dir: collections
 collections:
   books:
     title: Books
-    sort_by: position
     output: true
     permalink: /:collection/:title/
   architecture:
     title: Architecture
-    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
   horizon:
     title: Horizon
-    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
   ship:
     title: Ship
-    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
   model:
     title: Model
-    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
   sand:
     title: Sand
-    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
   cake:
     title: Cake
-    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
