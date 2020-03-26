@@ -12,36 +12,36 @@ collections_dir: collections
 collections:
   books:
     title: Books
+    sort_by: position
     output: true
     permalink: /:collection/:title/
-    sort_by: position
   architecture:
     title: Architecture
+    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
-    sort_by: position
   horizon:
     title: Horizon
+    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
-    sort_by: position
   ship:
     title: Ship
+    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
-    sort_by: position
   model:
     title: Model
+    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
-    sort_by: position
   sand:
     title: Sand
+    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
-    sort_by: position
   cake:
     title: Cake
+    sort_by: position
     output: true
     permalink: /photography/:collection/:title/
-    sort_by: position
