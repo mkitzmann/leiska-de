@@ -14,6 +14,10 @@ collections:
     title: Books
     output: true
     permalink: /:collection/:title/
+  news:
+    title: News
+    output: false
+    permalink: /:collection/:title/
   architecture:
     title: Architecture
     output: true
