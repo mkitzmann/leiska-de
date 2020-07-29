@@ -152,3 +152,11 @@ collections:
           - {label: "isbn", name: "isbn", widget: "string"}
           - {label: "price", name: "price", widget: "number"}
       - { label: 'Text', name: 'body', widget: 'markdown' }
+  - name: "news"
+    label: "News"
+    folder: "collections/_news"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Date", name: "date", widget: "date"}
+      - { label: 'Text', name: 'body', widget: 'markdown' }
