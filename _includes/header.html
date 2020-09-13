@@ -3,8 +3,13 @@
     <div class="navigation">
         <a href="/" class="logo"><img src="/img/logo/heinerleiska-logo.svg" class="logo"></a>
         <nav class="main">
-            <a href="/photography/" 
-            {% if page.url contains "photography" or page.url == "/" %}
+            <a href="/news/"
+            {% if page.url contains "news" or page.url == "/" %}
+            	class="active"
+            {% endif %}
+            >News</a>
+            <a href="/photography/"
+            {% if page.url contains "photography" %}
             	class="active"
             {% endif %}
             >Photographs</a>

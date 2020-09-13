@@ -1,7 +1,7 @@
 @import "../lib/all";
 
 $_sidebar-height-portrait: 14rem;
-$_sidebar-height-mobile: 11rem;
+$_sidebar-height-mobile: 12rem;
 $_sideinfo-height-portrait: 9rem;
 $_sideinfo-height-mobile: 6rem;
 
@@ -59,6 +59,7 @@ body {
     }
 
     @include media-query-p($on-mobile) {
+        bottom: auto;
         height: $_sidebar-height-mobile;
     }
 }
