@@ -1,42 +1,18 @@
 title: HEINER LEISKA | Photography
 email: mail@leiska.de
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Less images!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.leiska.de" # the base hostname & protocol for your site, e.g. http://leika.de
+
+baseurl: ""
+url: "https://www.leiska.de"
 plugins:
   - jekyll-postcss
-  -
 # Build settings
 markdown: kramdown
 
 collections_dir: collections
 collections:
-  books:
-    title: Books
+  projects:
+    title: Projects
     output: true
     permalink: /:collection/:title/
-  architecture:
-    title: Architecture
-    output: true
-    permalink: /photography/:collection/:title/
-  horizon:
-    title: Horizon
-    output: true
-    permalink: /photography/:collection/:title/
-  ship:
-    title: Ship
-    output: true
-    permalink: /photography/:collection/:title/
-  model:
-    title: Model
-    output: true
-    permalink: /photography/:collection/:title/
-  sand:
-    title: Sand
-    output: true
-    permalink: /photography/:collection/:title/
-  cake:
-    title: Cake
-    output: true
-    permalink: /photography/:collection/:title/

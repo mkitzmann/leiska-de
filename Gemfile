@@ -14,5 +14,6 @@ gem "jekyll", "~> 3.8"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem 'jekyll-postcss'
+  gem 'kramdown-parser-gfm'
 end
 
