@@ -1,16 +1,14 @@
-<div class="">
-    <div class="">
-        <a href="/" class="">
-            <img src="/img/logo/heinerleiska-logo.svg" class="" alt="Heiner Leiska Logo">
+<div class="sidebar">
+    <a href="/" class="logo">
+        <img src="/img/logo/heinerleiska-logo.svg" class="" alt="Heiner Leiska Logo">
+    </a>
+    <nav class="main">
+        {% for project in site.projects %}
+        {% assign url = '/projects/' | append: project.slug | append: '/' %}
+        <a href="{{ url }}" style="{% if page.url == url %}font-weight: bold{% endif %}">
+            {{ project.title }}
         </a>
-        <nav class="">
-            {% for project in site.projects %}
-                {% assign url = '/projects/' | append: project.slug | append: '/' %}
-                <a href="{{ url }}" class='block p-2 {% if page.url == url %}font-bold{% endif %}'>
-                    {{ project.title }}
-                </a>
-            {% endfor %}
-        </nav>
-    </div>
+        {% endfor %}
+    </nav>
 
 </div>
