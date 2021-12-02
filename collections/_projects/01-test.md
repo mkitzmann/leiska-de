@@ -1,7 +1,7 @@
 ---
-title: project TEST
-slug: test
 layout: project
+title: BOW
+slug: slug
 ---
 
 ![Test Image](https://www.leiska.de/img/uploads/01_LEISKA_3276-02.jpg "a title")
