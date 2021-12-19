@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "netlify-cli": "^2.71.0",
-    "netlify-cms": "^2.10.174"
+    "netlify-cms": "^2.10.181"
   },
   "devDependencies": {},
   "scripts": {
