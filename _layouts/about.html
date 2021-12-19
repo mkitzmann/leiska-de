@@ -8,46 +8,12 @@
 <body>
   {% include header.html %}
 
-  <div class="vertical-center">
 
-    <div class="container">
-      <div class="flex-container">
-          <div class="flex-column">
-              <img src="/img/uploads/{{ page.image }}" alt="" class="profile-image">
-            </div>
-            <div class="flex-column">
-                {{ page.vita | markdownify }}
-            </div>      
-      </div>
+  <div class="content about">
+    {{ page.content | markdownify }}
 
-      <div class="flex-container">
-          <div class="flex-column">
-            <p>Contact</p>
-            <p>
-              {{ site.data.settings.name }}<br/>
-              {{ site.data.settings.address.street }}<br/>
-              {{ site.data.settings.address.post-code }}
-              {{ site.data.settings.address.city }}
-            </p>
-            <p>
-              {{ site.data.settings.phone }}<br/>
-              <a href="mailto:{{ site.data.settings.email }}" class="link">{{ site.data.settings.email }}</a><br/>
-              {{ site.data.settings.web }}
-            </p>
-            <p>
-              Design: {{ site.data.settings.design }}
-            </p>
-
-            <a href="#privacy" class="link">Privacy Policy</a> / <a href="#datenschutz" class="link">Datenschutzverordnung</a>
-          </div>
-          <div class="flex-column">
-            {{ page.text | markdownify }}
-          </div>
-      </div>
-
-    </div>
+    <a href="#privacy" class="link">Privacy Policy</a> / <a href="#datenschutz" class="link">Datenschutzverordnung</a>
   </div>
-
 
   <div id="privacy" class="overlay">
     <a class="close-overlay" href="#"></a>
@@ -58,19 +24,17 @@
       </div>
     </div>
   </div>
-  
+
   <div id="datenschutz" class="overlay">
     <a class="close-overlay" href="#"></a>
     <div class="popup" style="width: 1000px">
       <a class="close" href="#">×</a>
       <div class="popup-content">
-  
+
         {{ site.data.privacy.de | markdownify }}
       </div>
     </div>
   </div>
-
-
 
   {% include footer.html %}
 </body>

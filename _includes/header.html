@@ -3,12 +3,20 @@
         <img src="/img/logo/heinerleiska-logo.svg" class="" alt="Heiner Leiska Logo">
     </a>
     <nav class="main">
-        {% for project in site.projects %}
-        {% assign url = '/projects/' | append: project.slug | append: '/' %}
-        <a href="{{ url }}" style="{% if page.url == url %}font-weight: bold{% endif %}">
-            {{ project.title }}
-        </a>
+        <a href="">Series <div style="display: inline-block; transform: rotate(90deg)">&#62;</div></a>
+        <div style="padding-bottom: .5rem">
+            {% for project in site.projects %}
+            {% assign url = '/projects/' | append: project.slug | append: '/' %}
+            <a href="{{ url }}"
+               style="margin-left: 20px; padding-bottom: .5rem; {% if page.url == url %}font-weight: bold;{% endif %}">
+                {{ project.title }}
+            </a>
+            {% endfor %}
+        </div>
+        {% for page in site.html_pages %}
+            {% if page.name != '404.html'%}
+                <a href="{{ page.url }}">{{ page.title }}</a>
+            {% endif %}
         {% endfor %}
     </nav>
-
 </div>
