@@ -67,6 +67,7 @@ DEPENDENCIES
   jekyll (~> 4.0)
   jekyll-feed (~> 0.6)
   kramdown-parser-gfm
+  pathutil
   webrick
 
 BUNDLED WITH
