@@ -12,14 +12,14 @@ collections:
         label: "Home"
         file: "index.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - { label: "Layout", name: "layout", widget: "hidden", default: "home" }
           - { label: 'Text', name: 'body', widget: 'markdown' }
       - name: "about"
         label: "About"
         file: "about/index.md"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
-- { label: 'Text', name: 'body', widget: 'markdown' }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "about" }
+          - { label: 'Text', name: 'body', widget: 'markdown' }
   - name: "projects"
     label: "Projects"
     folder: "collections/_projects"
