@@ -1,10 +1,12 @@
 _site
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
 .users.yml
 node_modules
 src/assets/js/bundle.js
 public
 .idea/*
+Gemfile.lock
 
 .DS_Store
