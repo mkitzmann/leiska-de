@@ -13,3 +13,4 @@ collections:
     title: Projects
     output: true
     permalink: /:collection/:title/
+    sort_by: title
