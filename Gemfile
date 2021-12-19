@@ -8,13 +8,13 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.0"
+gem "jekyll"
 
 # If you have any plugins, put them here!
-group :jekyll_plugins do
+# group :jekyll_plugins do
 #   gem "jekyll-feed", "~> 0.6"
 #   gem 'kramdown-parser-gfm'
-  gem "webrick"
-  gem "pathutil"
-end
+#   gem "webrick"
+#   gem "pathutil"
+# end
 
