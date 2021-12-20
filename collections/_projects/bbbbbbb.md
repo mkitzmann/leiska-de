@@ -1,6 +1,6 @@
 ---
 layout: project
-title: BBBBBBB
+title: Ä ?ß/)(.
 ---
 BBBBBBBB
 
