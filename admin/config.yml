@@ -26,10 +26,11 @@ collections:
     create: true
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "project" }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Series", name: "series", widget: "string" }
       - label: 'Images'
         name: 'images'
         widget: 'list'
         fields:
           - { label: "Image", name: "image", widget: "image" }
+          - { label: "Title", name: "title", widget: "string" }
           - { label: 'Information', name: 'info', widget: 'markdown' }
