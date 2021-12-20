@@ -1,6 +1,6 @@
 ---
 layout: project
-series: Horizons
+title: Horizons
 images:
   - url: /img/uploads/01_LEISKA_200509e03.jpg
     title: "Horizon #1 | 2010"
