@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: home
 ---
 
 ![Heiner Leiska](https://www.leiska.de/img/uploads/LEISKA_201109b04b.jpg "Heiner Leiska")

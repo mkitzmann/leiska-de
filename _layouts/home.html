@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html>
-  
+
 <head>
   {% include head.html %}
-  
-    <script>
-      function fadeIn(element) {
-          element.classList.add('fadein');
-          element.style.visibility = "visible";
-      }
-    </script>
 </head>
 
 <body>
   {% include header.html %}
 
-    <div class="container-home">
-      <a href="/books/" class="home-link">
-        <p>{{ page.text.top }}</p>
-        <img onload="fadeIn(this)" src="/img/uploads/{{ page.image }}" style="visibility: hidden">
-        <p>{{ page.text.bottom }}</p>
-      </a>
-    </div>
+  <div class="content">
+    {{ content }}
+  </div>
 
   {% include footer.html %}
 </body>
