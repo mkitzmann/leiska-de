@@ -64,6 +64,13 @@ body {
     }
 }
 
+details {
+    summary {
+        cursor: pointer;
+        user-select: none;
+    }
+}
+
 .about {
     img {
         width: 300px;

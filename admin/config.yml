@@ -31,6 +31,6 @@ collections:
         name: 'images'
         widget: 'list'
         fields:
-          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Image", name: "url", widget: "image" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: 'Information', name: 'info', widget: 'markdown' }

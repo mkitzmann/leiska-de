@@ -6,10 +6,18 @@
 </head>
 
 <body>
-    {% include header.html %}
-    <div class="content">
-        {{ content }}
-    </div>
-    {% include footer.html %}
+{% include header.html %}
+<div class="content">
+    {% for image in page.images %}
+    <img src="{{ image.url }}" alt="{{ image.title }}">
+    <details style="margin: .5rem 0 1.5rem 0">
+        <summary>
+            {{ image.title }}
+        </summary>
+        {{ image.info | markdownify }}
+    </details>
+    {% endfor %}
+</div>
+{% include footer.html %}
 </body>
 </html>
