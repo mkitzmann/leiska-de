@@ -42,9 +42,12 @@ body {
 }
 
 .content {
-    p {
-        line-height: 1.5;
+    p, table {
         max-width: 1200px;
+    }
+
+    table {
+        line-height: 1;
     }
 
     img {

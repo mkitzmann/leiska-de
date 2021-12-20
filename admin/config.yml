@@ -25,6 +25,11 @@ collections:
     folder: "collections/_projects"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
-      - {label: "Title", name: "title", widget: "string"}
-      - { label: 'Text', name: 'body', widget: 'markdown' }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "project" }
+      - { label: "Title", name: "title", widget: "string" }
+      - label: 'Images'
+        name: 'images'
+        widget: 'list'
+        fields:
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: 'Information', name: 'info', widget: 'markdown' }
