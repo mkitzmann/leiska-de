@@ -28,9 +28,9 @@ body {
 
 body {
     @media all and (min-width: 700px) {
-    background: white;
-    display: flex;
-    overflow: hidden;
+        background: white;
+        display: flex;
+        overflow: hidden;
 
     }
 }
@@ -66,10 +66,37 @@ body {
 
 details {
     summary {
+        position: relative;
+        display: inline;
         cursor: pointer;
         user-select: none;
+        padding-right: 1rem;
+
+        &::-webkit-details-marker,
+        &::marker {
+            display: none;
+            content: "";
+        }
+
+        &::after {
+            content: '';
+            border-width: .4rem;
+            border-style: solid;
+            border-color: transparent transparent transparent #000;
+            position: absolute;
+            top: 0;
+            left: 100%;
+            transform: rotate(0);
+            transform-origin: .2rem 50%;
+            transition: .25s transform ease;
+        }
+    }
+
+    &[open] summary::after {
+        transform: rotate(90deg);
     }
 }
+
 
 .about {
     img {
