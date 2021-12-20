@@ -24,9 +24,7 @@ collections:
     label: "Projects"
     folder: "collections/_projects"
     create: true
-    slug: "{{fields.slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
       - { label: 'Text', name: 'body', widget: 'markdown' }
