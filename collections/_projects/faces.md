@@ -1,8 +1,8 @@
 ---
 layout: project
-title: FACE
+title: FRONT
 images:
   - url: /img/uploads/LEISKA_200809g07.jpg
-    title: "Faces #1 | 2021"
-    info: adfga sdfads fasdf asdf
+    title: "FRONT #43  CAP SAN DIEGO  |  2021"
+    info: Ein Schiff gestaltet vom Architekten Cäsar Pinnau.
 ---
