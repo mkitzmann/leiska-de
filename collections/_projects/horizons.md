@@ -1,33 +1,19 @@
 ---
 layout: project
-title: Horizons
+title: HORIZON
 images:
   - url: /img/uploads/01_LEISKA_200509e03.jpg
-    title: "Horizon #1 | 2010"
-    info: >-
-      Aliquid error sunt omnis magnam ea in atque esse. Numquam dolor ab officia
-      sint. Dolores porro voluptatem beatae et laudantium consequatur aut.
-      Dolores quibusdam maiores sed saepe id officiis hic aspernatur. Dolores
-      consequatur sed quibusdam nesciunt ut deserunt at. 
+    title: "HORIZON #01 | 2005"
+    info: |-
+      Rigaer Bucht.
 
-
-      | Edition S | 90 cm x 120 cm | 6+1 Artist Proof |
-
-      | Edition M | 90 cm x 120 cm | 6+1 Artist Proof |
-
-      | Edition L | 90 cm x 120 cm | 6+1 Artist Proof |
+      \| Edition S | 60 cm x 80 cm | 6 (+1 AP) |
+      | Edition M | 75 cm x 100 cm | 6 (+1 AP) |
+      | Edition L | 90 cm x 120 cm | 6 (+1 AP) |
   - url: /img/uploads/03_LEISKA_200607d17.jpg
-    title: "Horizon #2 | 2011"
-    info: >-
-      Aliquid error sunt omnis magnam ea in atque esse. Numquam dolor ab officia
-      sint. Dolores porro voluptatem beatae et laudantium consequatur aut.
-      Dolores quibusdam maiores sed saepe id officiis hic aspernatur. Dolores
-      consequatur sed quibusdam nesciunt ut deserunt at. 
-
-
-      | Edition S | 90 cm x 120 cm | 6+1 Artist Proof |
-
-      | Edition M | 90 cm x 120 cm | 6+1 Artist Proof |
-
-      | Edition L | 90 cm x 120 cm | 6+1 Artist Proof |
+    title: "HORIZON #02 | 2011"
+    info: |-
+      \| Edition S | 60 cm x 80 cm | 6 (+1 AP) |
+      | Edition M | 75 cm x 100 cm | 6 (+1 AP) |
+      | Edition L | 90 cm x 120 cm | 6 (+1 AP) |
 ---
