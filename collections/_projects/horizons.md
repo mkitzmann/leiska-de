@@ -15,7 +15,7 @@ images:
     info: |-
       Ostsee, Kalmarsund
 
-       Edition S | 60 cm x 80 cm | 6 (+1 AP) |
-       Edition M | 75 cm x 100 cm | 6 (+1 AP) |
-       Edition L | 90 cm x 120 cm | 6 (+1 AP) |
+      Edition S | 60 cm x 80 cm | 6 (+1 AP) |
+      Edition M | 75 cm x 100 cm | 6 (+1 AP) |
+      Edition L | 90 cm x 120 cm | 6 (+1 AP) |
 ---
