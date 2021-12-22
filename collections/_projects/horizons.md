@@ -3,7 +3,7 @@ layout: project
 title: HORIZON
 images:
   - url: /img/uploads/01_LEISKA_200509e03.jpg
-    title: "HORIZON #01 | 2005"
+    title: "HORIZON #01 | &nbsp; &nbsp; &nbsp; &nbsp; 2005"
     info: |-
       Rigaer Bucht.
 
