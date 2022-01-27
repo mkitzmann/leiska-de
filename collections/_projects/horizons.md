@@ -61,71 +61,71 @@ images:
     title: "HORIZON #28  Many Moskitos / 2006"
   - url: /img/uploads/horizon20_leiska_200709c02.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #35 / 2007"
   - url: /img/uploads/horizon21_leiska_201208c035.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #84 Upcoming Rain / 2022"
   - url: /img/uploads/horizon22_leiska_200709d02.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #39  Before Rain / 2007"
   - url: /img/uploads/horizon23_leiska_200609c36.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #27 / 2006"
   - url: /img/uploads/horizon24_leiska_201202e67.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #78 / 2012"
   - url: /img/uploads/horizon25_leiska_200709k04.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #43 Autumn Glow / 2007"
   - url: /img/uploads/horizon26_leiska_200710a12.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #44 Blues / 2007"
   - url: /img/uploads/horizon27_leiska_200709c03.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #36 Midsummer Night / 2007"
   - url: /img/uploads/horizon28_leiska_200708d01.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #32 / 2007"
   - url: /img/uploads/horizon29_leiska_200710a16.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #46 / 2007"
   - url: /img/uploads/horizon30_leiska_200803e01.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #55  Full Moon / 2008"
   - url: /img/uploads/horizon31_leiska_201202e68.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #79 / 2012"
   - url: /img/uploads/horizon32_leiska_200803a10.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #52 / 2008"
   - url: /img/uploads/horizon33_leiska_200803a11.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #61 Tranquility  / 2008"
   - url: /img/uploads/horizon34_leiska_200711e01.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #51 / 2007"
   - url: /img/uploads/horizon35_leiska_200710a31.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #48 / 2007"
   - url: /img/uploads/horizon36_leiska_200710d18.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #50 / 2007"
   - url: /img/uploads/horizon37_leiska_200607d16.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #22 / 2006"
   - url: /img/uploads/horizon38_leiska_200710c10.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #49 / 2007"
   - url: /img/uploads/horizon39_leiska_200710a15.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #45 After the Storm / 2007"
   - url: /img/uploads/horizon40_leiska_200802d04.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #66 Sunny Storm / 2008"
   - url: /img/uploads/horizon41_leiska_200802e11.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #65 No Fishing Boat  / 2008"
   - url: /img/uploads/horizon42_leiska_200802d05.jpg
     info: Limited Edition
-    title: "HORIZON #99 / 2022"
+    title: "HORIZON #65 Storm / 2008"
 ---
