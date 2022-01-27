@@ -40,89 +40,92 @@ images:
     info: Limited Edition
   - url: /img/uploads/horizon13_leiska_200904d01.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #73 / 2009"
   - url: /img/uploads/horizon14_leiska_200709c01.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #68 / 2007"
+  - url: /img/uploads/horizon15_leiska_200607b15.jpg
+    title: "HORIZON #11 / 2006"
+    info: Limited Edition
   - url: /img/uploads/horizon16_leiska_200607d17.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #23 Sparkling Line / 2006"
   - url: /img/uploads/horizon17_leiska_200805c01.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #69 / 2008"
   - url: /img/uploads/horizon18_leiska_201002i38.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #76 / 2010"
   - info: Limited Edition
     url: /img/uploads/horizon19_leiska_200609c42.jpg
-    title: "BOW #99 / 2022"
+    title: "HORIZON #28  Many Moskitos / 2006"
   - url: /img/uploads/horizon20_leiska_200709c02.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon21_leiska_201208c035.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon22_leiska_200709d02.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon23_leiska_200609c36.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon24_leiska_201202e67.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon25_leiska_200709k04.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon26_leiska_200710a12.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon27_leiska_200709c03.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon28_leiska_200708d01.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon29_leiska_200710a16.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon30_leiska_200803e01.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon31_leiska_201202e68.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon32_leiska_200803a10.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon33_leiska_200803a11.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon34_leiska_200711e01.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon35_leiska_200710a31.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon36_leiska_200710d18.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon37_leiska_200607d16.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon38_leiska_200710c10.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon39_leiska_200710a15.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon40_leiska_200802d04.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon41_leiska_200802e11.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
   - url: /img/uploads/horizon42_leiska_200802d05.jpg
     info: Limited Edition
-    title: "BOW #99 / 2022"
+    title: "HORIZON #99 / 2022"
 ---
