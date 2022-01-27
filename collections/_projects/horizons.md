@@ -20,4 +20,22 @@ images:
   - title: "HORIZON #17 / 2006"
     info: Limited Edition
     url: /img/uploads/horizon06_leiska_200607b66.jpg
+  - url: /img/uploads/horizon07_leiska_200607b35.jpg
+    title: "HORIZON #14 / 2006"
+    info: Limited Edition
+  - url: /img/uploads/horizon08_leiska_200607b01.jpg
+    title: "HORIZON #06 Hiddensee / 2006"
+    info: Limited Edition
+  - url: /img/uploads/horizon09_leiska_201106k02-edit.jpg
+    title: "HORIZON #72 / 2011"
+    info: Limited Edition
+  - url: /img/uploads/horizon10_leiska_200607b16.jpg
+    title: "HORIZON #12 / 2006"
+    info: Limited Edition
+  - url: /img/uploads/horizon11_leiska_200607b17.jpg
+    title: "HORIZON #13 'Like Oil' / 2006"
+    info: Limited Edition
+  - url: /img/uploads/horizon12_leiska_200607d19.jpg
+    title: "HORIZON #25 / 2006"
+    info: Limited Edition
 ---
