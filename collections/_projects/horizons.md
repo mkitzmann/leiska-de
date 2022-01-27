@@ -11,4 +11,7 @@ images:
   - url: /img/uploads/horizon03_leiska_200606m09.jpg
     title: "HORIZON #03"
     info: Information
+  - url: /img/uploads/horizon04_leiska_200607b11.jpg
+    title: "HORIZON #09  /  2006"
+    info: Edition
 ---
