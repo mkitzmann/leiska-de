@@ -179,4 +179,7 @@ images:
   - info: Limited Edition
     url: /img/uploads/horizon59_leiska_200607b06.jpg
     title: "HORIZON #08 Vor Hiddensee / 2006"
+  - url: /img/uploads/horizon60_leiska_200609c70.jpg
+    title: "HORIZON #30 Sunny Period / 2006"
+    info: Limited Edition
 ---
