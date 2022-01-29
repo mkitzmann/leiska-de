@@ -173,4 +173,10 @@ images:
   - title: "Horizon #19 Infinite / 2006"
     url: /img/uploads/horizon57_leiska_200607d02b.jpg
     info: Limited Edition
+  - info: Limited Edition
+    url: /img/uploads/horizon58_leiska_201607f97.jpg
+    title: "HORIZON #86 / 2016"
+  - info: Limited Edition
+    url: /img/uploads/horizon59_leiska_200607b06.jpg
+    title: "HORIZON #08 Vor Hiddensee / 2006"
 ---
