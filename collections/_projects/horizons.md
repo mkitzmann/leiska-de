@@ -137,4 +137,13 @@ images:
   - title: "HORIZON #63 Gale / 2008"
     info: Limited Edition
     url: /img/uploads/horizon45_leiska_200802e01.jpg
+  - url: /img/uploads/horizon46_leiska_201310a45b.jpg
+    info: Limited Edition
+    title: "HORIZON #85 / 2013"
+  - info: Limited Edition
+    title: "HORIZON #70 Sparkling / 2008"
+    url: /img/uploads/horizon47_leiska_200806e04.jpg
+  - info: Limited Edition
+    title: "HORIZON #71 / 2008"
+    url: /img/uploads/horizon48_leiska_200806e05.jpg
 ---
