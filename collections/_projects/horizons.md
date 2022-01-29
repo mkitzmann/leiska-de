@@ -170,4 +170,7 @@ images:
   - url: /img/uploads/horizon56_leiska_200803e03.jpg
     title: "HORIZON #56 / 2008"
     info: Limited Edition
+  - title: "HORIZON #Horizon #19 Infinite / 2006"
+    url: /img/uploads/horizon57_leiska_200607d02b.jpg
+    info: Limited Edition
 ---
