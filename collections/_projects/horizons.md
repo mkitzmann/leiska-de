@@ -146,4 +146,22 @@ images:
   - info: Limited Edition
     title: "HORIZON #71 / 2008"
     url: /img/uploads/horizon48_leiska_200806e05.jpg
+  - title: "HORIZON #26 / 2006"
+    info: Limited Edition
+    url: /img/uploads/horizon49_leiska_200607d40.jpg
+  - title: "HORIZON #74 / 2009"
+    info: Limited Edition
+    url: /img/uploads/horizon50_leiska_200905h05.jpg
+  - title: "HORIZON #75 / 2009"
+    info: Limited Edition
+    url: /img/uploads/horizon51_leiska_200904d07.jpg
+  - title: "HORIZON #64 / 2009"
+    info: Limited Edition
+    url: /img/uploads/horizon52_leiska_200907h02.jpg
+  - title: "HORIZON #77 / 2010"
+    info: Limited Edition
+    url: /img/uploads/horizon53_leiska_201005c21.jpg
+  - title: "HORIZON #81 / 2012"
+    info: Limited Edition
+    url: /img/uploads/horizon54_leiska_201202e70.jpg
 ---
