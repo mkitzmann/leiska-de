@@ -1,4 +1,4 @@
 ---
 layout: project
-title: TREE By the Wayside
+title: TREE by the wayside
 ---
