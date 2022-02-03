@@ -2,6 +2,10 @@
 layout: project
 title: HORIZON
 images:
+  - title: Horizont.
+    url: /img/uploads/leerbild.jpg
+    info: Nur eine Linie. Nur eine Linie? Immer präsent, nie erreichbar, so
+      verschieden …
   - url: /img/uploads/horizon01_leiska_200509e03.jpg
     title: "HORIZON #01  Bay of Riga / 2005"
     info: Limited Edition
