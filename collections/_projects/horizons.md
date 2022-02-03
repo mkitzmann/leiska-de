@@ -18,8 +18,8 @@ images:
   - url: /img/uploads/horizon04_leiska_200607b11.jpg
     title: "HORIZON #09 / 2006"
     info: Limited Edition
-  - url: /img/uploads/horizon05_leiska_200607b12.jpg
-    title: "HORIZON #10 / 2006"
+  - url: /img/uploads/leiska_200712e02_www.jpg
+    title: "HORIZON #53 Kattegatt / 2007"
     info: Limited Edition
   - title: "HORIZON #17 / 2006"
     info: Limited Edition
