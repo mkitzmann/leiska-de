@@ -2,11 +2,11 @@
 title: About
 layout: about
 ---
-![Heiner Leiska](https://www.leiska.de/img/uploads/LEISKA_201109b04b.jpg "Heiner Leiska")
+![Heiner Leiska](/img/uploads/leiska_201109b04b_www.jpg "Heiner Leiska")
 
 **Vita**
 
-| 1946 | Start |
+\| 1946 | Start |
 | 1963 | Sailor |
 | 1974 | Diploma civil engineering |
 | 1975 - 1978 | IT-manager |
