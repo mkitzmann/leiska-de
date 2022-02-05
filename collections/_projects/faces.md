@@ -8,4 +8,7 @@ images:
   - url: /img/uploads/leiska_200806d13_www.jpg
     title: "FRONT #28  MSC TOGO / 2008"
     info: Limited Edition
+  - url: /img/uploads/leiska_200809g07_www.jpg
+    title: "FRONT #43  CAP SAN DIEGO / 2008"
+    info: Limited Editon
 ---
