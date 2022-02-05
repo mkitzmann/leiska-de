@@ -11,4 +11,7 @@ images:
   - url: /img/uploads/leiska_200809g07_www.jpg
     title: "FRONT #43  CAP SAN DIEGO / 2008"
     info: Limited Editon
+  - url: /img/uploads/leiska_201105i01_www.jpg
+    title: "Front #51  BLEICHEN / 2011"
+    info: Limited Edtion
 ---
