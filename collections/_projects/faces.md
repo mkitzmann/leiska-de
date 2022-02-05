@@ -23,4 +23,10 @@ images:
   - url: /img/uploads/leiska_200510g11_www.jpg
     title: "FRONT #19  FINNSAILOR / 2005"
     info: Limited Edtiion
+  - url: /img/uploads/leiska_200908c24_www.jpg
+    title: "FRONT #09  SILJA SERENADE / 2009"
+    info: Limited Edition
+  - url: /img/uploads/leiska_201506e09_www.jpg
+    title: "FRONT #14  VERMONT TRADER / 2015"
+    info: Limited Edition
 ---
