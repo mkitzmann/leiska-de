@@ -14,4 +14,7 @@ images:
   - url: /img/uploads/leiska_201105i01_www.jpg
     title: "Front #51  BLEICHEN / 2011"
     info: Limited Edtion
+  - url: /img/uploads/leiska_200706b21_www.jpg
+    title: "Front #26  CENTURY / 2007"
+    info: Limited Edition
 ---
