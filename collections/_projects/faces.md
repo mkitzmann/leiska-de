@@ -12,12 +12,15 @@ images:
     title: "FRONT #43  CAP SAN DIEGO / 2008"
     info: Limited Editon
   - url: /img/uploads/leiska_201105i01_www.jpg
-    title: "Front #51  BLEICHEN / 2011"
+    title: "FRONT #51  BLEICHEN / 2011"
     info: Limited Edtion
   - url: /img/uploads/leiska_200706b21_www.jpg
-    title: "Front #26  CENTURY / 2007"
+    title: "FRONT #26  CENTURY / 2007"
     info: Limited Edition
   - url: /img/uploads/leiska_200507d13_www.jpg
-    title: "Front #08  Thomson Celebration / 2005"
+    title: "FRONT #08  Thomson Celebration / 2005"
     info: Limited Edition
+  - url: /img/uploads/leiska_200510g11_www.jpg
+    title: "FRONT #19  FINNSAILOR / 2005"
+    info: Limited Edtiion
 ---
