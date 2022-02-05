@@ -17,4 +17,7 @@ images:
   - url: /img/uploads/leiska_200706b21_www.jpg
     title: "Front #26  CENTURY / 2007"
     info: Limited Edition
+  - url: /img/uploads/leiska_200507d13_www.jpg
+    title: "Front #08  Thomson Celebration / 2005"
+    info: Limited Edition
 ---
