@@ -27,7 +27,7 @@ images:
     title: "FRONT #09  SILJA SERENADE / 2009"
     info: Limited Edition
   - url: /img/uploads/leiska_201506e09_www.jpg
-    title: "FRONT #14  VERMONT TRADER / 2015"
+    title: "FRONT #14  VERMONT TRADE / 2015"
     info: Limited Edition
   - url: /img/uploads/leiska_200509a03_www.jpg
     title: "FRONT #10  AEGEAN SPIRIT / 2005"
