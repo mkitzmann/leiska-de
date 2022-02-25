@@ -1,72 +1,24 @@
-   
 <div class="sidebar">
-    <div class="navigation">
-        <a href="/" class="logo"><img src="/img/logo/heinerleiska-logo.svg" class="logo"></a>
-        <nav class="main">
-            <a href="/photography/" 
-            {% if page.url contains "photography" or page.url == "/" %}
-            	class="active"
-            {% endif %}
-            >Photographs</a>
-            <a href="/books/"
-            {% if page.url contains "books" %}
-                class="active"
-            {% endif %}
-            >Books</a>
-            <a href="/about/"
-            {% if page.url contains "about" %}
-            	class="active"
-            {% endif %}
-            >About</a>
-        </nav>
-    </div>
-
-    {% if include.sideinfo %}
-
-    {% assign counter = 1 %}
-    {% for item in site[page.collection] %}
-        {% if page.id == item.id %}
-            {% assign current_page = counter %}
-        {% endif %}
-        {% assign counter = counter | plus: 1 %}
-    {% endfor %}
-
-    <div class="sideinfo">
-            <div class="counter-wrapper">
-                <a class="info-button svg-icon" href="#info">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM13 17H11V11H13V17ZM13 9H11V7H13V9Z" fill="#BDBDBD"/>
-                        <rect x="11" y="7" width="2" height="2" fill="#333333"/>
-                        <rect x="11" y="11" width="2" height="6" fill="#333333"/>
-                    </svg>
+    <a href="/" class="logo">
+        <img src="/img/logo/heinerleiska-logo.svg" alt="Heiner Leiska Logo" width="150" height="22">
+    </a>
+    <nav class="main">
+        <details style="margin-bottom: 1rem" {% if page.url == "/" %}open{% endif %}>
+            <summary style="cursor: pointer; user-select: none">Series</summary>
+            <div style="margin: .5rem 0;">
+                {% assign projects = site.projects | sort: 'title' %}
+                {% for project in projects %}
+                <a href="{{ project.url }}"
+                   style="user-select: none; margin: .5rem 0 0 1rem; {% if page.url == project.url %}font-weight: bold;{% endif %}">
+                    {{ project.title }}
                 </a>
-                {% if site[page.collection].size != 1 %}
-                    <a href="{{ page.previous.url | default: site[page.collection].last.url }}"  class="svg-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="24" height="24" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
-                            <g class="nc-icon-wrapper">
-                                <path d="M352 115.4L331.3 96 160 256l171.3 160 20.7-19.3L201.5 256z"></path>
-                            </g>
-                        </svg>
-                    </a>
-
-                    <div class="counter">{{ current_page }}/{{ site[page.collection] | size }}</div>
-
-                    <a href="{{ page.next.url | default: site[page.collection].first.url  }}"  class="svg-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="24" height="24" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
-                            <g class="nc-icon-wrapper">
-                                <path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"></path>
-                            </g>
-                        </svg>
-                    </a>
-                
-                {% endif %}
+                {% endfor %}
             </div>
-        </div>
-    {% endif %}
-
-    
+        </details>
+        {% for html_page in site.html_pages %}
+            {% if html_page.name != '404.html'%}
+                <a href="{{ html_page.url }}" style="user-select: none; {% if page.url == html_page.url %}font-weight: bold;{% endif %}">{{ html_page.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </nav>
 </div>
-
-
-<div class="content">
-

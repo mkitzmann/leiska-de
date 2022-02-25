@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "ncu": "^0.2.1",
-    "netlify-cli": "^2.40.0",
-    "netlify-cms": "^2.10.35"
+    "netlify-cli": "^2.71.0",
+    "netlify-cms": "^2.10.181"
   },
   "devDependencies": {},
   "scripts": {

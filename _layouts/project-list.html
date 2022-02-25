@@ -12,7 +12,7 @@
     <div class="container-list">
         {% for project in page.projects %}
           {% assign collection = site[project.title] | first %}
-          
+
           <a href="{{ collection.url }}" class="project-wrapper">
               <img class="grid fadein" src="/img/uploads/{{ project.thumbnail }}">
           </a>
