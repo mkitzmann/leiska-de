@@ -15,7 +15,7 @@
 		{{ page.introduction }}
 	</p>
     {% for image in page.images %}
-    <img src="{{ image.url }}" alt="{{ image.title }}">
+    <img loading="lazy" src="{{ image.url }}" alt="{{ image.title }}">
     <details style="margin: .5rem 0 1.5rem 0">
         <summary>
             {{ image.title }}
