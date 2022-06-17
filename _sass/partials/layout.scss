@@ -64,12 +64,19 @@ body {
     }
 }
 
+*:focus {
+  outline: none;
+}
+
 details {
     summary {
         position: relative;
         display: inline;
         cursor: pointer;
-        user-select: none;
+		-webkit-user-select: none;  /* Chrome all / Safari all */
+		-moz-user-select: none;     /* Firefox all */
+		-ms-user-select: none;      /* IE 10+ */
+		user-select: none;
         padding-right: 1rem;
 
         &::-webkit-details-marker,
@@ -79,12 +86,9 @@ details {
         }
 
         &::after {
-            content: '';
-            border-width: .4rem;
-            border-style: solid;
-            border-color: transparent transparent transparent #000;
+            content: '>';
             position: absolute;
-            top: 0;
+            top: -2px;
             left: 100%;
             transform: rotate(0);
             transform-origin: .2rem 50%;
