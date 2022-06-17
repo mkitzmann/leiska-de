@@ -27,10 +27,11 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "project" }
       - { label: "Series", name: "title", widget: "string" }
+      - { label: "Introduction", name: "introduction", widget: "string" }
       - label: 'Images'
         name: 'images'
         widget: 'list'
         fields:
           - { label: "Image", name: "url", widget: "image" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: 'Information', name: 'info', widget: 'markdown' }
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: 'Information', name: 'info', widget: 'markdown', required: false }

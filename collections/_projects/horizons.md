@@ -1,11 +1,8 @@
 ---
 layout: project
 title: HORIZON
+introduction: Horizont. Nur eine Linie. Nur eine Linie? Immer präsent, nie erreichbar, so verschieden …
 images:
-  - title: Horizont. Nur eine Linie. Nur eine Linie? Immer präsent, nie erreichbar,
-      so verschieden …
-    url: /img/uploads/leerbild.jpg
-    info: Leertext
   - url: /img/uploads/horizon01_leiska_200509e03.jpg
     title: "HORIZON #01  Bay of Riga / 2005"
     info: Limited Edition

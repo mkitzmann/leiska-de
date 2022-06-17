@@ -3,7 +3,7 @@
         <img src="/img/logo/heinerleiska-logo.svg" alt="Heiner Leiska Logo" width="150" height="22">
     </a>
     <nav class="main">
-        <details style="margin-bottom: 1rem" {% if page.url == "/" %}open{% endif %}>
+        <details style="margin-bottom: 1rem" open>
             <summary style="cursor: pointer; user-select: none">Series</summary>
             <div style="margin: .5rem 0;">
                 {% assign projects = site.projects | sort: 'title' %}
