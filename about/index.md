@@ -19,15 +19,3 @@ layout: about
 1990 | Concentrating on architectural models |
 1995 | Founding photo agency arturimages |
 2003 | Beginning own projects |
-
-**Contact**
-
-Dipl.Ing. Heiner Leiska\
-Stiegstück 11 Teehaus\
-25371 Seestermühe  
-
-+49 176 31491402\
-[mail@leiska.de](mailto:mail@leiska.de)\
-www.leiska.de  
-
-Design: Moritz Kitzmann + Heiner Leiska

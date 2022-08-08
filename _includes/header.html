@@ -3,18 +3,13 @@
         <img src="/img/logo/heinerleiska-logo.svg" alt="Heiner Leiska Logo" width="150" height="22">
     </a>
     <nav class="main">
-        <details style="margin-bottom: 1rem" open>
-            <summary style="cursor: pointer; user-select: none">Series</summary>
-            <div style="margin: .5rem 0;">
-                {% assign projects = site.projects | sort: 'title' %}
-                {% for project in projects %}
-                <a href="{{ project.url }}"
-                   style="user-select: none; margin: .5rem 0 0 1rem; {% if page.url == project.url %}font-weight: bold;{% endif %}">
-                    {{ project.title }}
-                </a>
-                {% endfor %}
-            </div>
-        </details>
+		{% assign projects = site.projects | sort: 'title' %}
+		{% for project in projects %}
+		<a href="{{ project.url }}"
+		   style="user-select: none; {% if page.url == project.url %}font-weight: 900;{% endif %}">
+			{{ project.title }}
+		</a>
+		{% endfor %}
         {% for html_page in site.html_pages %}
             {% if html_page.name != '404.html'%}
                 <a href="{{ html_page.url }}" style="user-select: none; {% if page.url == html_page.url %}font-weight: bold;{% endif %}">{{ html_page.title }}</a>

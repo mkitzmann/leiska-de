@@ -90,14 +90,14 @@ details {
             position: absolute;
             top: -2px;
             left: 100%;
-            transform: rotate(0);
+            transform: rotate(90deg);
             transform-origin: .2rem 50%;
             transition: .25s transform ease;
         }
     }
 
     &[open] summary::after {
-        transform: rotate(90deg);
+        transform: rotate(-90deg);
     }
 }
 

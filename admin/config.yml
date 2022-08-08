@@ -20,6 +20,12 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "about" }
           - { label: 'Text', name: 'body', widget: 'markdown' }
+      - name: "contact"
+        label: "Contact"
+        file: "contact/index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "about" }
+          - { label: 'Text', name: 'body', widget: 'markdown' }
   - name: "projects"
     label: "Projects"
     folder: "collections/_projects"
