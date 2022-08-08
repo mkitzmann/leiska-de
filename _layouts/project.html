@@ -15,7 +15,12 @@
 		{{ page.introduction }}
 	</p>
     {% for image in page.images %}
-    <img loading="lazy" src="{{ image.url }}" alt="{{ image.title }}">
+	{% if forloop.first %}
+    	<img src="{{ image.url }}" alt="{{ image.title }}">
+	{% else %}
+    	<img loading="lazy" src="{{ image.url }}" alt="{{ image.title }}">
+	{% endif %}
+
     <details style="margin: .5rem 0 1.5rem 0">
         <summary>
             {{ image.title }}
