@@ -126,7 +126,7 @@ collections:
       - {label: "Description", name: "description", widget: "text", required: false}
   - name: "lindenallee"
     label: "lindenallee"
-    folder: "collections/_ship_lindenallee
+    folder: "collections/_lindenallee"
     create: true
     slug: "{{fields.slug}}"
     fields:
@@ -140,7 +140,7 @@ collections:
       - {label: "Description", name: "description", widget: "text", required: false}
   - name: "beach-plant"
     label: "beach-plant"
-    folder: "collections/_ship_beach-plant
+    folder: "collections/_beach-plant"
     create: true
     slug: "{{fields.slug}}"
     fields:
