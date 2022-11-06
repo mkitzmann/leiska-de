@@ -14,5 +14,5 @@ projects:
   - title: cake
     thumbnail: LEISKA_201209b083b_thumb.jpg
   - title: lindenallee
-    thumbnail: /img/uploads/01_LEISKA_200509e03.jpg
+    thumbnail: 01_LEISKA_200509e03.jpg
 ---
