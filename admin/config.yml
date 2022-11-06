@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: overview
 media_folder: "/img/uploads/"
 site_url: https://www.leiska.de
 logo_url: https://www.leiska.de/img/logo/heinerleiska-logo.svg
@@ -125,7 +125,7 @@ collections:
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
   - name: "lindenallee"
-    label: "lindenallee"
+    label: "Lindenallee"
     folder: "collections/_lindenallee"
     create: true
     slug: "{{fields.slug}}"
@@ -139,7 +139,7 @@ collections:
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
   - name: "beach-plant"
-    label: "beach-plant"
+    label: "Beach-Plant"
     folder: "collections/_beach-plant"
     create: true
     slug: "{{fields.slug}}"
@@ -153,7 +153,7 @@ collections:
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
   - name: "water"
-    label: "water"
+    label: "Water"
     folder: "collections/_water"
     create: true
     slug: "{{fields.slug}}"
@@ -167,7 +167,7 @@ collections:
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
   - name: "shoreline"
-    label: "shoreline"
+    label: "Shoreline"
     folder: "collections/_shoreline"
     create: true
     slug: "{{fields.slug}}"
@@ -181,7 +181,7 @@ collections:
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
   - name: "plant"
-    label: "plant"
+    label: "Plant"
     folder: "collections/_plant"
     create: true
     slug: "{{fields.slug}}"
