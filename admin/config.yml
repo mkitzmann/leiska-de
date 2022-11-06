@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: overview
 media_folder: "/img/uploads/"
 site_url: https://www.leiska.de
 logo_url: https://www.leiska.de/img/logo/heinerleiska-logo.svg
@@ -40,12 +40,12 @@ collections:
             fields:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-  - name: "architecture" 
-    label: "Architecture" 
-    folder: "collections/_architecture" 
-    create: true 
+  - name: "architecture"
+    label: "Architecture"
+    folder: "collections/_architecture"
+    create: true
     slug: "{{fields.slug}}"
-    fields: 
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
@@ -54,12 +54,12 @@ collections:
       - {label: "Year", name: "year", widget: "string"}
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
-  - name: "cake" 
-    label: "Cake" 
-    folder: "collections/_cake" 
-    create: true 
+  - name: "cake"
+    label: "Cake"
+    folder: "collections/_cake"
+    create: true
     slug: "{{fields.slug}}"
-    fields: 
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
@@ -68,12 +68,12 @@ collections:
       - {label: "Year", name: "year", widget: "string"}
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
-  - name: "horizon" 
-    label: "Horizon" 
-    folder: "collections/_horizon" 
-    create: true 
+  - name: "horizon"
+    label: "Horizon"
+    folder: "collections/_horizon"
+    create: true
     slug: "{{fields.slug}}"
-    fields: 
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
@@ -82,12 +82,12 @@ collections:
       - {label: "Year", name: "year", widget: "string"}
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
-  - name: "model" 
-    label: "Model" 
-    folder: "collections/_model" 
-    create: true 
+  - name: "model"
+    label: "Model"
+    folder: "collections/_model"
+    create: true
     slug: "{{fields.slug}}"
-    fields: 
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
@@ -96,12 +96,12 @@ collections:
       - {label: "Year", name: "year", widget: "string"}
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
-  - name: "sand" 
-    label: "Sand" 
-    folder: "collections/_sand" 
-    create: true 
+  - name: "sand"
+    label: "Sand"
+    folder: "collections/_sand"
+    create: true
     slug: "{{fields.slug}}"
-    fields: 
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
@@ -110,12 +110,12 @@ collections:
       - {label: "Year", name: "year", widget: "string"}
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
-  - name: "ship" 
-    label: "Ship" 
-    folder: "collections/_ship" 
-    create: true 
+  - name: "ship"
+    label: "Ship"
+    folder: "collections/_ship"
+    create: true
     slug: "{{fields.slug}}"
-    fields: 
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
@@ -124,12 +124,82 @@ collections:
       - {label: "Year", name: "year", widget: "string"}
       - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
-  - name: "books" 
-    label: "Books" 
-    folder: "collections/_books" 
-    create: true 
+  - name: "lindenallee"
+    label: "Lindenallee"
+    folder: "collections/_lindenallee"
+    create: true
     slug: "{{fields.slug}}"
-    fields: 
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "date", widget: "date"}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "beach-plant"
+    label: "Beach-Plant"
+    folder: "collections/_beach-plant"
+    create: true
+    slug: "{{fields.slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "date", widget: "date"}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "water"
+    label: "Water"
+    folder: "collections/_water"
+    create: true
+    slug: "{{fields.slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "date", widget: "date"}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "shoreline"
+    label: "Shoreline"
+    folder: "collections/_shoreline"
+    create: true
+    slug: "{{fields.slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "date", widget: "date"}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "plant"
+    label: "Plant"
+    folder: "collections/_plant"
+    create: true
+    slug: "{{fields.slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Position", name: "date", widget: "date"}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Archive ID", name: "archive_id", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+  - name: "books"
+    label: "Books"
+    folder: "collections/_books"
+    create: true
+    slug: "{{fields.slug}}"
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "book-detail"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
