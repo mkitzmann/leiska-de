@@ -34,6 +34,26 @@ collections:
     title: Sand
     output: true
     permalink: /photography/:collection/:title/
+  lindenallee:
+    title: Lindenallee
+    output: true
+    permalink: /photography/:collection/:title/
+  beach-plant:
+    title: Beach-Plant
+    output: true
+    permalink: /photography/:collection/:title/
+  water:
+    title: Water
+    output: true
+    permalink: /photography/:collection/:title/
+  shoreline:
+    title: Shoreline
+    output: true
+    permalink: /photography/:collection/:title/
+  plant:
+    title: Plant
+    output: true
+    permalink: /photography/:collection/:title/
   cake:
     title: Cake
     output: true
